@@ -1,0 +1,20 @@
+{
+  "name": "screens.metro.net",
+  "version": "1.0.0",
+  "description": "generates html pages that are used on some Metro screens",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LACMTA/screens.metro.net.git"
+  },
+  "author": "Nina Kin",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/LACMTA/screens.metro.net/issues"
+  },
+  "homepage": "https://github.com/LACMTA/screens.metro.net#readme"
+}

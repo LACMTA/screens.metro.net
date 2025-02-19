@@ -1,0 +1,15 @@
+html, body, #wrapper,
+.full-page-content, .full-page-content img {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.half-page-content {
+    height: 50%;
+    width: 100%;
+}

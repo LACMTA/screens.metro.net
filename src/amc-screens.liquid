@@ -1,0 +1,12 @@
+---
+layout: "full-page.liquid"
+title: "AMC Screen"
+css: amc-screens.css
+pagination:
+    data: screens
+    size: 1
+    alias: screen
+permalink: "/{{ screen.id }}/"
+---
+
+<img src="/images/{{ screen.content.image }}">

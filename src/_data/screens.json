@@ -1,0 +1,243 @@
+[
+    {
+        "id": "1",
+        "mca": {
+            "displayId": "1546",
+            "screen": "1"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "1",
+            "screen": "1"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 1.png"
+        }
+    },{
+        "id": "2",
+        "mca": {
+            "displayId": "1546",
+            "screen": "2"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "1",
+            "screen": "2"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 1.png"
+        }
+    },{
+        "id": "3",
+        "mca": {
+            "displayId": "1547",
+            "screen": "1"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "2",
+            "screen": "1"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 2.png"
+        }
+    },{
+        "id": "4",
+        "mca": {
+            "displayId": "1547",
+            "screen": "2"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "2",
+            "screen": "2"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 2.png"
+        }
+    },{
+        "id": "5",
+        "mca": {
+            "displayId": "1548",
+            "screen": "1"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "3",
+            "screen": "1"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 3.png"
+        }
+    },{
+        "id": "6",
+        "mca": {
+            "displayId": "1548",
+            "screen": "2"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "3",
+            "screen": "2"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 3.png"
+        }
+    },{
+        "id": "7",
+        "mca": {
+            "displayId": "1549",
+            "screen": "1"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "4",
+            "screen": "1"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 4.png"
+        }
+    },{
+        "id": "8",
+        "mca": {
+            "displayId": "1549",
+            "screen": "2"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "4",
+            "screen": "2"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 4.png"
+        }
+    },    {
+        "id": "9",
+        "mca": {
+            "displayId": "1550",
+            "screen": "1"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "5",
+            "screen": "1"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 5.png"
+        }
+    },{
+        "id": "10",
+        "mca": {
+            "displayId": "1550",
+            "screen": "2"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "5",
+            "screen": "2"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 5.png"
+        }
+    },{
+        "id": "11",
+        "mca": {
+            "displayId": "1551",
+            "screen": "1"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "6",
+            "screen": "1"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 6.png"
+        }
+    },{
+        "id": "12",
+        "mca": {
+            "displayId": "1551",
+            "screen": "2"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "6",
+            "screen": "2"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 6.png"
+        }
+    },{
+        "id": "13",
+        "mca": {
+            "displayId": "1552",
+            "screen": "1"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "7",
+            "screen": "1"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 7.png"
+        }
+    },{
+        "id": "14",
+        "mca": {
+            "displayId": "1552",
+            "screen": "2"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "7",
+            "screen": "2"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 7.png"
+        }
+    },{
+        "id": "15",
+        "mca": {
+            "displayId": "1553",
+            "screen": "1"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "8",
+            "screen": "1"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 8.png"
+        }
+    },{
+        "id": "16",
+        "mca": {
+            "displayId": "1553",
+            "screen": "2"
+        },
+        "location": {
+            "type": "bus pylon",
+            "bay": "8",
+            "screen": "2"
+        },
+        "layout": "full-page.liquid",
+        "content": {
+            "image": "AMC Bus Pylon Daktronics_Bay 8.png"
+        }
+    }
+]

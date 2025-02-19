@@ -1,4 +1,4 @@
-html, body, #wrapper,
+/* html, body, #wrapper,
 .full-page-content, .full-page-content img {
     margin: 0;
     padding: 0;
@@ -12,4 +12,23 @@ html, body, #wrapper,
 .half-page-content {
     height: 50%;
     width: 100%;
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align the top of the image to the top of the page */
+    background-color: black; /* Set a background color if needed */
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+    object-position: top;
 }

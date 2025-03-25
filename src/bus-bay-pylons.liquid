@@ -1,0 +1,21 @@
+---
+layout: "bus-bay-pylon.liquid"
+title: "LAX/MTC Station"
+css: amc-screens.css
+pagination:
+    data: bus-bay-pylons
+    size: 1
+    alias: screen
+permalink: "/{{ screen.id }}/"
+---
+
+{% if screen.layout == "full" %}
+    <img src="/images/{{ screen.content.image }}">
+{% elsif screen.layout == "partial" %}
+    <img src="/images/{{ screen.content.imageTop }}">
+    <img src="/images/{{ screen.content.imageBottom }}">
+{% endif %}
+
+<script>
+    document.querySelector('body').style.backgroundColor = '{{ screen.content.bgColor }}';
+</script>

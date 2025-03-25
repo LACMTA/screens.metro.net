@@ -1,0 +1,172 @@
+{
+    "bay_order": [
+        "1",
+        "2",
+        "14",
+        "4",
+        "10",
+        "7",
+        "6",
+        "8",
+        "9",
+        "13",
+        "12",
+        "11",
+        "15"
+    ],
+    "bay_assignments": {
+        "1": {
+            "bay": "1",
+            "routes": [
+                {
+                    "agency": "LAWA",
+                    "route": "LAX Shuttle",
+                    "description": "LAX Shuttle",
+                    "image": "lax-shuttle.png"
+                }
+            ]
+        },
+        "2": {
+            "bay": "2",
+            "routes": [
+                {
+                    "agency": "LAWA",
+                    "route": "LAX Shuttle",
+                    "description": "LAX Shuttle",
+                    "image": "lax-shuttle.png"
+                }
+            ]
+        },
+        "4": {
+            "bay": "4",
+            "routes": [
+                {
+                    "agency": "Big Blue Bus",
+                    "route": "3",
+                    "description": "Arizona & 5th",
+                    "image": "bigbluebus-3.png"
+                },{
+                    "agency": "Big Blue Bus",
+                    "route": "R3",
+                    "description": "Arizona & 5th",
+                    "image": "bigbluebus-r3.png"
+                }
+            ]
+        },
+        "6": {
+            "bay": "6",
+            "routes": [
+                {
+                    "agency": "Torrance Transit",
+                    "route": "8",
+                    "description": "Hawthorne Bl at Pacific Coast Hwy",
+                    "image": "torrance-8.png"
+                }
+            ]
+        },
+        "7": {
+            "bay": "7",
+            "routes": [
+                {
+                    "agency": "Culver City Bus",
+                    "route": "6",
+                    "description": "UCLA Gateway Plaza",
+                    "image": "culvercity-6.png"
+                },{
+                    "agency": "Culver City Bus",
+                    "route": "R6",
+                    "description": "UCLA Gateway Plaza",
+                    "image": "culvercity-r6.png"
+                }
+            ]
+        },
+        "8": {
+            "bay": "8",
+            "routes": [
+                {
+                    "agency": "Metro",
+                    "route": "102",
+                    "description": "South Gate via La Tijera",
+                    "image": "metro-102.png"
+                }
+            ]
+        },
+        "9": {
+            "bay": "9",
+            "routes": [
+                {
+                    "agency": "Beach Cities Transit",
+                    "route": "109",
+                    "description": "Palos Verdes Bl & Via Valencia",
+                    "image": "bct-109.png"
+                }
+            ]
+        },
+        "10": {
+            "bay": "10",
+            "routes": [
+                {
+                    "agency": "Gardena Transit",
+                    "route": "5",
+                    "description": "Willowbrook / Rosa Parks C Line Station",
+                    "image": "gardena-5.png"
+                }
+            ]
+        },
+        "11": {
+            "bay": "11",
+            "routes": [
+                {
+                    "agency": "Metro",
+                    "route": "120",
+                    "description": "Whittwood Town Center",
+                    "image": "metro-120.png"
+                }
+            ]
+        },
+        "12": {
+            "bay": "12",
+            "routes": [
+                {
+                    "agency": "Metro",
+                    "route": "117",
+                    "description": "Downey via Century Bl",
+                    "image": "metro-117.png"
+                }
+            ]
+        },
+        "13": {
+            "bay": "13",
+            "routes": [
+                {
+                    "agency": "Metro",
+                    "route": "111",
+                    "description": "Norwalk Station via Florence",
+                    "image": "metro-111.png"
+                }
+            ]
+        },
+        "14": {
+            "bay": "14",
+            "routes": [
+                {
+                    "agency": "Metro Micro",
+                    "route": "",
+                    "description": "Metro Micro",
+                    "image": "metro-micro.png"
+                }
+            ]
+        },
+        "15": {
+            "bay": "15",
+            "routes": [
+                {
+                    "agency": "Metro",
+                    "route": "232",
+                    "description": "Downtown Long Beach",
+                    "image": "metro-232.png"
+                }
+            ]
+        }
+    }
+}

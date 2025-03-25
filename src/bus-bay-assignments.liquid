@@ -1,0 +1,42 @@
+---
+layout: "bus-bay-assignments.liquid"
+title: "LAX/MTC Station"
+css: bus-bay-assignments.css
+---
+
+{% assign bay_order_arr = bus-bay-assignments.bay_order %}
+{% assign bay_details = bus-bay-assignments.bay_assignments %}
+{% for bay in bay_order_arr %}
+    {% assign bay_routes = bay_details[bay].routes %}
+    {% for bay_route in bay_routes %}
+        <div id="assignment-row">
+            <div id="service-agency-info">
+                <div id="route-number">{{ bay_route.route }}</div>
+                <div id="agency-logo">{{ bay_route.agency }}</div>
+            </div>
+            <div id="service-bay-info">
+                <div id="service-description">{{ bay_route.description }}</div>
+                <div id="bay-number">{{ bay }}</div>
+            </div>
+        </div>
+    {% endfor %}
+{% endfor %}
+
+<!-- Duplicate content for a seamless infinite scroll -->
+{% assign bay_order_arr = bus-bay-assignments.bay_order %}
+{% assign bay_details = bus-bay-assignments.bay_assignments %}
+{% for bay in bay_order_arr %}
+    {% assign bay_routes = bay_details[bay].routes %}
+    {% for bay_route in bay_routes %}
+        <div id="assignment-row">
+            <div id="service-agency-info">
+                <div id="route-number">{{ bay_route.route }}</div>
+                <div id="agency-logo">{{ bay_route.agency }}</div>
+            </div>
+            <div id="service-bay-info">
+                <div id="service-description">{{ bay_route.description }}</div>
+                <div id="bay-number">{{ bay }}</div>
+            </div>
+        </div>
+    {% endfor %}
+{% endfor %}

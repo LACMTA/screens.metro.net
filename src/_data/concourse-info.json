@@ -1,0 +1,29 @@
+[
+    {
+        "id": "100",
+        "mca": {
+            "displayId": "2000"
+        },
+        "location": {
+            "type": "concourse"
+        },
+        "layout": "full",
+        "content": {
+            "image": "Multi-Service Full-FPO Area Only.png",
+            "bgColor": "#d0d1d3"
+        }
+    },{
+        "id": "101",
+        "mca": {
+            "displayId": "2000"
+        },
+        "location": {
+            "type": "concourse"
+        },
+        "layout": "partial",
+        "content": {
+            "image": "Multi-Service Partial-FPO Area Only.png",
+            "bgColor": "#d0d1d3"
+        }
+    }
+]

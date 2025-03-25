@@ -1,12 +1,12 @@
 ---
-layout: "full-page.liquid"
-title: "AMC Screen"
+layout: "bus-bay-pylon.liquid"
+title: "LAX/MTC Station"
 css: amc-screens.css
 pagination:
-    data: screens
+    data: bus-bay-pylons
     size: 1
     alias: screen
-permalink: "/{{ screen.id }}/"
+permalink: "mtc/{{ screen.mca.displayId }}/{{ screen.mca.screen }}/"
 ---
 
 <img src="/images/{{ screen.content.image }}">

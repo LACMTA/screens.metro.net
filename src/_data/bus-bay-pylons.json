@@ -12,7 +12,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 1A.png",
+            "image": "lax-shuttle.png",
             "bgColor": "#00A5CE"
         }
     },{
@@ -28,7 +28,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 1A.png",
+            "image": "lax-shuttle.png",
             "bgColor": "#00A5CE"
         }
     },{
@@ -44,7 +44,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 2.png",
+            "image": "lax-shuttle.png",
             "bgColor": "#00A5CE"
         }
     },{
@@ -60,7 +60,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 2.png",
+            "image": "lax-shuttle.png",
             "bgColor": "#00A5CE"
         }
     },{

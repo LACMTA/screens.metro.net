@@ -25,6 +25,8 @@ html, body {
     align-items: flex-start; /* Align the top of the image to the top of the page */
     background-color: black; /* Set a background color if needed */
     overflow: hidden;
+
+    font-family: sans-serif;
 }
 
 img {

@@ -19,10 +19,12 @@
             "bay": "1",
             "routes": [
                 {
-                    "agency": "LAWA",
-                    "route": "LAX Shuttle",
+                    "agency": "lax-logo-full.png",
+                    "route": "",
                     "description": "LAX Shuttle",
-                    "image": "lax-shuttle.png"
+                    "image": "lax-shuttle.png",
+                    "bgColor": "#00a5ce"
+                
                 }
             ]
         },
@@ -30,10 +32,11 @@
             "bay": "2",
             "routes": [
                 {
-                    "agency": "LAWA",
-                    "route": "LAX Shuttle",
+                    "agency": "lax-logo-full.png",
+                    "route": "",
                     "description": "LAX Shuttle",
-                    "image": "lax-shuttle.png"
+                    "image": "lax-shuttle.png",
+                    "bgColor": "#00a5ce"
                 }
             ]
         },
@@ -41,15 +44,17 @@
             "bay": "4",
             "routes": [
                 {
-                    "agency": "Big Blue Bus",
+                    "agency": "big-blue-bus-logo.png",
                     "route": "3",
                     "description": "Arizona & 5th",
-                    "image": "bigbluebus-3.png"
+                    "image": "bigbluebus-3.png",
+                    "bgColor": "#005590"
                 },{
-                    "agency": "Big Blue Bus",
+                    "agency": "big-blue-bus-logo.png",
                     "route": "R3",
                     "description": "Arizona & 5th",
-                    "image": "bigbluebus-r3.png"
+                    "image": "bigbluebus-r3.png",
+                    "bgColor": "#005590"
                 }
             ]
         },
@@ -57,10 +62,11 @@
             "bay": "6",
             "routes": [
                 {
-                    "agency": "Torrance Transit",
+                    "agency": "torrance-transit-logo.png",
                     "route": "8",
                     "description": "Hawthorne Bl at Pacific Coast Hwy",
-                    "image": "torrance-8.png"
+                    "image": "torrance-8.png",
+                    "bgColor": "#00644c"
                 }
             ]
         },
@@ -68,15 +74,17 @@
             "bay": "7",
             "routes": [
                 {
-                    "agency": "Culver City Bus",
+                    "agency": "culver-city-bus-logo.png",
                     "route": "6",
                     "description": "UCLA Gateway Plaza",
-                    "image": "culvercity-6.png"
+                    "image": "culvercity-6.png",
+                    "bgColor": "#63ad46"
                 },{
-                    "agency": "Culver City Bus",
+                    "agency": "culver-city-bus-logo.png",
                     "route": "R6",
                     "description": "UCLA Gateway Plaza",
-                    "image": "culvercity-r6.png"
+                    "image": "culvercity-r6.png",
+                    "bgColor": "#63ad46"
                 }
             ]
         },
@@ -84,10 +92,11 @@
             "bay": "8",
             "routes": [
                 {
-                    "agency": "Metro",
+                    "agency": "metro-logo.png",
                     "route": "102",
                     "description": "South Gate via La Tijera",
-                    "image": "metro-102.png"
+                    "image": "metro-102.png",
+                    "bgColor": "#f48120"
                 }
             ]
         },
@@ -95,10 +104,11 @@
             "bay": "9",
             "routes": [
                 {
-                    "agency": "Beach Cities Transit",
+                    "agency": "beach-cities-transit-logo.png",
                     "route": "109",
                     "description": "Palos Verdes Bl & Via Valencia",
-                    "image": "bct-109.png"
+                    "image": "bct-109.png",
+                    "bgColor": "#008dcf"
                 }
             ]
         },
@@ -106,10 +116,11 @@
             "bay": "10",
             "routes": [
                 {
-                    "agency": "Gardena Transit",
+                    "agency": "gardena-transit-logo.png",
                     "route": "5",
                     "description": "Willowbrook / Rosa Parks C Line Station",
-                    "image": "gardena-5.png"
+                    "image": "gardena-5.png",
+                    "bgColor": "#40af49"
                 }
             ]
         },
@@ -117,10 +128,11 @@
             "bay": "11",
             "routes": [
                 {
-                    "agency": "Metro",
+                    "agency": "metro-logo.png",
                     "route": "120",
                     "description": "Whittwood Town Center",
-                    "image": "metro-120.png"
+                    "image": "metro-120.png",
+                    "bgColor": "#f48120"
                 }
             ]
         },
@@ -128,10 +140,11 @@
             "bay": "12",
             "routes": [
                 {
-                    "agency": "Metro",
+                    "agency": "metro-logo.png",
                     "route": "117",
                     "description": "Downey via Century Bl",
-                    "image": "metro-117.png"
+                    "image": "metro-117.png",
+                    "bgColor": "#f48120"
                 }
             ]
         },
@@ -139,10 +152,11 @@
             "bay": "13",
             "routes": [
                 {
-                    "agency": "Metro",
+                    "agency": "metro-logo.png",
                     "route": "111",
                     "description": "Norwalk Station via Florence",
-                    "image": "metro-111.png"
+                    "image": "metro-111.png",
+                    "bgColor": "#f48120"
                 }
             ]
         },
@@ -150,10 +164,11 @@
             "bay": "14",
             "routes": [
                 {
-                    "agency": "Metro Micro",
+                    "agency": "metro-micro-logo-full.png",
                     "route": "",
                     "description": "Metro Micro",
-                    "image": "metro-micro.png"
+                    "image": "metro-micro.png",
+                    "bgColor": "#0a2440"
                 }
             ]
         },
@@ -161,10 +176,11 @@
             "bay": "15",
             "routes": [
                 {
-                    "agency": "Metro",
+                    "agency": "metro-logo.png",
                     "route": "232",
                     "description": "Downtown Long Beach",
-                    "image": "metro-232.png"
+                    "image": "metro-232.png",
+                    "bgColor": "#f48120"
                 }
             ]
         }

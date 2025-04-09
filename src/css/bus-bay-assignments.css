@@ -1,8 +1,8 @@
 #bba-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: top;
-    align-items: justify;
+    justify-content: flex-start;
+    align-items: stretch;
     height: 100vh;
     width: 1920px;
     background-color: black;
@@ -33,20 +33,35 @@
     font-size: 52px;
 }
 
-#bba-content {
+#bba-static-content {
+    width: 100%;
+    height: 246px;
+}
+
+#bba-content-container {
+    overflow: visible;
+    position: relative;
+    height: 100%;
+}
+
+#bba-content,
+#bba-content-clone {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
-#assignment-row {
+.assignment-row {
     height: 176px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#service-agency-info {
+.service-agency-info {
     width: 484px;
     background-color: #444;
     display: flex;
@@ -55,30 +70,39 @@
     align-items: center;
 }
 
-#route-number {
+.route-number {
+    height: 176px;
+    width: 242px;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agency-logo {
     width: 242px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#agency-logo {
-    width: 242px;
+.agency-logo-full {
+    width: 484px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#service-bay-info {
+.service-bay-info {
     width: 1426px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    background-color: #525353;
 }
 
-#service-description {
+.service-description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,32 +110,13 @@
     margin-left: 64px;
 }
 
-#bay-number {
+.bay-number {
     width: 136px;
     height: 136px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    font-size: 94px;
-}
-
-
-#bba-content-container {
-    overflow: hidden;
-    position: relative;
-    height: 100%;
-}
-
-#bba-content {
-    animation: scroll 20s linear infinite;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-50%);
-    }
+    font-size: 70px;
+    background-color: #000;
 }

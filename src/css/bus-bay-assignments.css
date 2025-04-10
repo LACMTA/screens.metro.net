@@ -38,6 +38,10 @@
     height: 246px;
 }
 
+#bba-static-content img {
+    padding-bottom: 10px;
+}
+
 #bba-content-container {
     overflow: visible;
     position: relative;

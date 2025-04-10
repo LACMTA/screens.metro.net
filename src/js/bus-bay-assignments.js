@@ -30,3 +30,32 @@ window.addEventListener("DOMContentLoaded", () => {
     scrollRows();
 
 });
+
+window.addEventListener("DOMContentLoaded", () => {
+    const dateTimeElement = document.getElementById("date-time");
+
+    function formatDateTime() {
+        const now = new Date();
+        
+        // Format: MM/DD/YYYY  hh:mm AM/PM
+        const month = String(now.getMonth() + 1);
+        const day = String(now.getDate());
+        const year = now.getFullYear(); // Get full year (YYYY)
+        
+        let hours = now.getHours();
+        const minutes = String(now.getMinutes()).padStart(2, '0'); // Get minutes and pad to 2 digits
+        const ampm = hours >= 12 ? 'PM' : 'AM'; // Determine AM/PM
+        
+        hours = hours % 12; // Convert hours to 12-hour format
+        hours = hours ? String(hours) : '12'; // Convert 0 hour to 12 (for 12 AM)
+        
+        const formattedTime = `${month}/${day}/${year}  ${hours}:${minutes} ${ampm}`;
+        dateTimeElement.textContent = formattedTime;
+    }
+
+    // Initial call to format and display date and time
+    formatDateTime();
+
+    // Update the time every minute
+    setInterval(formatDateTime, 60000);
+});

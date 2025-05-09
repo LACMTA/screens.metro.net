@@ -5,7 +5,7 @@
     align-items: stretch;
     height: 100vh;
     width: 1920px;
-    background-color: black;
+    background-color: #2B2B2B;
     overflow: hidden;
     color: #fff;
 }
@@ -17,7 +17,7 @@
     align-items: middle;
     width: 100%;
     height: 90px;
-    background-color: #000;
+    background-color: #2B2B2B;
     color: white;
     font-size: 1.5em;
     margin: 0;
@@ -30,7 +30,9 @@
     align-items: center;
     padding-right: 40px;
     height: 90px;
-    font-size: 52px;
+    font-size: 60px;
+    font-weight: normal;
+    transform: translateY(-3px);
 }
 
 #bba-static-content {
@@ -67,7 +69,7 @@
 
 .service-agency-info {
     width: 484px;
-    background-color: #444;
+    /* background-color: #444; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -75,12 +77,13 @@
 }
 
 .route-number {
-    height: 176px;
+    height: 109px;
     width: 242px;
-    font-size: 72px;
+    font-size: 109px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateY(-5px);
 }
 
 .agency-logo {
@@ -113,6 +116,8 @@
     font-size: 72px;
     margin-left: 64px;
     width: 1200px;
+    line-height: 1;
+    transform: translateY(-3px);
 }
 
 .bay-number {
@@ -122,6 +127,13 @@
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    font-size: 70px;
     background-color: #000;
+}
+
+.bay-number-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 95px;
+    transform: translateY(-4px);
 }

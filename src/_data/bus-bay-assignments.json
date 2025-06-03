@@ -46,13 +46,19 @@
                 {
                     "agency": "big-blue-bus-logo.png",
                     "route": "3",
-                    "description": "Arizona & 5th",
+                    "description": "Downtown Santa Monica",
                     "image": "bigbluebus-3.png",
                     "bgColor": "#005590"
-                },{
+                }
+            ]
+        },
+        "5": {
+            "bay": "5",
+            "routes": [
+                {
                     "agency": "big-blue-bus-logo.png",
-                    "route": "R3",
-                    "description": "Arizona & 5th",
+                    "route": "3",
+                    "description": "Downtown Santa Monica",
                     "image": "bigbluebus-r3.png",
                     "bgColor": "#005590"
                 }
@@ -64,7 +70,7 @@
                 {
                     "agency": "torrance-transit-logo.png",
                     "route": "8",
-                    "description": "Hawthorne Bl at Pacific Coast Hwy",
+                    "description": "Torrance",
                     "image": "torrance-8.png",
                     "bgColor": "#00644c"
                 }
@@ -76,13 +82,13 @@
                 {
                     "agency": "culver-city-bus-logo.png",
                     "route": "6",
-                    "description": "UCLA Gateway Plaza",
+                    "description": "UCLA via Sepulveda Bl",
                     "image": "culvercity-6.png",
                     "bgColor": "#63ad46"
                 },{
                     "agency": "culver-city-bus-logo.png",
                     "route": "R6",
-                    "description": "UCLA Gateway Plaza",
+                    "description": "UCLA via Sepulveda Bl",
                     "image": "culvercity-r6.png",
                     "bgColor": "#63ad46"
                 }
@@ -94,7 +100,7 @@
                 {
                     "agency": "metro-logo.png",
                     "route": "102",
-                    "description": "South Gate via La Tijera",
+                    "description": "South Gate",
                     "image": "metro-102.png",
                     "bgColor": "#f48120"
                 }
@@ -106,7 +112,7 @@
                 {
                     "agency": "beach-cities-transit-logo.png",
                     "route": "109",
-                    "description": "Palos Verdes Bl & Via Valencia",
+                    "description": "Redondo Beach Riviera Village",
                     "image": "bct-109.png",
                     "bgColor": "#008dcf"
                 }
@@ -118,7 +124,7 @@
                 {
                     "agency": "gardena-transit-logo.png",
                     "route": "5",
-                    "description": "Willowbrook/Rosa Parks C Line",
+                    "description": "Willowbrook/Rosa Parks Station",
                     "image": "gardena-5.png",
                     "bgColor": "#40af49"
                 }
@@ -130,7 +136,7 @@
                 {
                     "agency": "metro-logo.png",
                     "route": "120",
-                    "description": "Whittwood Town Center",
+                    "description": "Whittwood Center via Imperial Hwy",
                     "image": "metro-120.png",
                     "bgColor": "#f48120"
                 }
@@ -142,7 +148,7 @@
                 {
                     "agency": "metro-logo.png",
                     "route": "117",
-                    "description": "Downey via Century Bl",
+                    "description": "Downey",
                     "image": "metro-117.png",
                     "bgColor": "#f48120"
                 }
@@ -154,7 +160,7 @@
                 {
                     "agency": "metro-logo.png",
                     "route": "111",
-                    "description": "Norwalk Station via Florence",
+                    "description": "Norwalk Station via Florence Av",
                     "image": "metro-111.png",
                     "bgColor": "#f48120"
                 }
@@ -178,7 +184,7 @@
                 {
                     "agency": "metro-logo.png",
                     "route": "232",
-                    "description": "Downtown Long Beach",
+                    "description": "Long Beach",
                     "image": "metro-232.png",
                     "bgColor": "#f48120"
                 }

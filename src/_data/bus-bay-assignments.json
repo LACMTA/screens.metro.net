@@ -19,10 +19,10 @@
             "bay": "1",
             "routes": [
                 {
-                    "agency": "lax-logo-full.png",
+                    "agency": "lax-shuttle-logo.png",
                     "route": "",
                     "description": "LAX Shuttle",
-                    "image": "lax-shuttle.png",
+                    "image": "lax-shuttle-logo.png",
                     "bgColor": "#00a5ce"
                 
                 }
@@ -32,10 +32,10 @@
             "bay": "2",
             "routes": [
                 {
-                    "agency": "lax-logo-full.png",
+                    "agency": "lax-shuttle-logo.png",
                     "route": "",
                     "description": "LAX Shuttle",
-                    "image": "lax-shuttle.png",
+                    "image": "lax-shuttle-logo.png",
                     "bgColor": "#00a5ce"
                 }
             ]
@@ -164,10 +164,10 @@
             "bay": "14",
             "routes": [
                 {
-                    "agency": "metro-micro-logo-full.png",
+                    "agency": "metro-micro-logo.png",
                     "route": "",
                     "description": "Metro Micro",
-                    "image": "metro-micro.png",
+                    "image": "metro-micro-logo.png",
                     "bgColor": "#0a2440"
                 }
             ]

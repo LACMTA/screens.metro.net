@@ -1,0 +1,29 @@
+---
+layout: "psa.liquid"
+title: "LAX/MTC Station"
+css: psa.css
+pagination:
+    data: psa-list
+    size: 1
+    alias: screen
+permalink: "/{{ screen.id }}/"
+---
+
+{% assign image_arr = screen.images %}
+{% assign first = true %}
+
+<!-- loop through image_arr and show images -->
+<div id="image-container" data-duration="{{ screen.frameDurationSeconds }}">
+    {% for image in image_arr %}
+        {% if first %}
+            <div class="psa-image show">
+                <img src="/images/{{ image.url }}"/>
+            </div>
+            {% assign first = false %}
+        {% else %}
+            <div class="psa-image hide">
+                <img src="/images/{{ image.url }}"/>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

@@ -4,6 +4,7 @@
         "2",
         "14",
         "4",
+        "5",
         "10",
         "7",
         "6",
@@ -12,10 +13,12 @@
         "13",
         "12",
         "11",
-        "15"
+        "15",
+        "16"
     ],
     "bay_assignments": {
         "1": {
+            "empty": false,
             "bay": "1",
             "routes": [
                 {
@@ -29,6 +32,7 @@
             ]
         },
         "2": {
+            "empty": false,
             "bay": "2",
             "routes": [
                 {
@@ -41,6 +45,7 @@
             ]
         },
         "4": {
+            "empty": false,
             "bay": "4",
             "routes": [
                 {
@@ -53,6 +58,7 @@
             ]
         },
         "5": {
+            "empty": false,
             "bay": "5",
             "routes": [
                 {
@@ -65,6 +71,7 @@
             ]
         },
         "6": {
+            "empty": false,
             "bay": "6",
             "routes": [
                 {
@@ -77,6 +84,7 @@
             ]
         },
         "7": {
+            "empty": false,
             "bay": "7",
             "routes": [
                 {
@@ -95,6 +103,7 @@
             ]
         },
         "8": {
+            "empty": false,
             "bay": "8",
             "routes": [
                 {
@@ -107,6 +116,7 @@
             ]
         },
         "9": {
+            "empty": false,
             "bay": "9",
             "routes": [
                 {
@@ -119,6 +129,7 @@
             ]
         },
         "10": {
+            "empty": false,
             "bay": "10",
             "routes": [
                 {
@@ -131,6 +142,7 @@
             ]
         },
         "11": {
+            "empty": false,
             "bay": "11",
             "routes": [
                 {
@@ -143,6 +155,7 @@
             ]
         },
         "12": {
+            "empty": false,
             "bay": "12",
             "routes": [
                 {
@@ -155,6 +168,7 @@
             ]
         },
         "13": {
+            "empty": false,
             "bay": "13",
             "routes": [
                 {
@@ -167,6 +181,7 @@
             ]
         },
         "14": {
+            "empty": false,
             "bay": "14",
             "routes": [
                 {
@@ -179,6 +194,7 @@
             ]
         },
         "15": {
+            "empty": false,
             "bay": "15",
             "routes": [
                 {
@@ -187,6 +203,19 @@
                     "description": "Long Beach",
                     "image": "metro-232.png",
                     "bgColor": "#f48120"
+                }
+            ]
+        },
+        "16": {
+            "empty": true,
+            "bay": "",
+            "routes": [
+                {
+                    "agency": "",
+                    "route": "",
+                    "description": "",
+                    "image": "",
+                    "bgColor": ""
                 }
             ]
         }

@@ -12,30 +12,36 @@ permalink: "/{{ screen.id }}/"
 {% assign bay_order_arr = bus-bay-assignments.bay_order %}
 {% assign bay_details = bus-bay-assignments.bay_assignments %}
 {% for bay in bay_order_arr %}
-    {% assign bay_routes = bay_details[bay].routes %}
-    {% for bay_route in bay_routes %}
-        <div class="assignment-row">
-            <div class="service-agency-info" style="background-color: {{bay_route.bgColor}};">
-                <!-- If bay_route.route doesn't exist --> 
-                {% if bay_route.route == "" %}
-                    <div class="agency-logo-full"><img src="/images/{{ bay_route.agency }}"></div>
-                {% else %}
-                    <div class="route-number">{{ bay_route.route }}</div>
-                    {% if bay_route.agency contains ".png" %}
-                        <div class="agency-logo"><img src="/images/{{ bay_route.agency }}"></div>
+
+    {% if bay_details[bay].empty %}
+        <div class="assignment-row"></div>
+    {% else %}
+        {% assign bay_routes = bay_details[bay].routes %}
+
+        {% for bay_route in bay_routes %}
+            <div class="assignment-row">
+                <div class="service-agency-info" style="background-color: {{bay_route.bgColor}};">
+                    <!-- If bay_route.route doesn't exist --> 
+                    {% if bay_route.route == "" %}
+                        <div class="agency-logo-full"><img src="/images/{{ bay_route.agency }}"></div>
                     {% else %}
-                        <div class="agency-logo">{{ bay_route.agency }}</div>
+                        <div class="route-number">{{ bay_route.route }}</div>
+                        {% if bay_route.agency contains ".png" %}
+                            <div class="agency-logo"><img src="/images/{{ bay_route.agency }}"></div>
+                        {% else %}
+                            <div class="agency-logo">{{ bay_route.agency }}</div>
+                        {% endif %}
                     {% endif %}
-                {% endif %}
-            </div>
-            <div class="service-bay-info">
-                <div class="service-description">{{ bay_route.description }}</div>
-                <div class="bay-number">
-                    <div class="bay-number-number">
-                        {{ bay }}
+                </div>
+                <div class="service-bay-info">
+                    <div class="service-description">{{ bay_route.description }}</div>
+                    <div class="bay-number">
+                        <div class="bay-number-number">
+                            {{ bay }}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    {% endif %}
 {% endfor %}

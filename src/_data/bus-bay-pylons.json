@@ -12,7 +12,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "lax-shuttle.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 01.png",
             "bgColor": "#00A5CE"
         }
     },{
@@ -28,7 +28,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "lax-shuttle.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 01.png",
             "bgColor": "#00A5CE"
         }
     },{
@@ -44,7 +44,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "lax-shuttle.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 02.png",
             "bgColor": "#00A5CE"
         }
     },{
@@ -60,7 +60,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "lax-shuttle.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 02.png",
             "bgColor": "#00A5CE"
         }
     },{
@@ -76,7 +76,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 3.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 03.png",
             "bgColor": "#58595B"
         }
     },{
@@ -90,10 +90,9 @@
             "bay": "3",
             "screen": "2"
         },
-        "layout": "partial",
+        "layout": "full",
         "content": {
-            "imageTop": "AMC Bus Pylon Daktronics_Bay 3B.png",
-            "imageBottom": "AMC Bus Pylon Daktronics_Bay 3B.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 03.png",
             "bgColor": "#ffd200"
         }
     },{
@@ -109,7 +108,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 4.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 04.png",
             "bgColor": "#005590"
         }
     },{
@@ -125,7 +124,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 4.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 04.png",
             "bgColor": "#005590"
         }
     },    {
@@ -141,7 +140,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 5.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 05.png",
             "bgColor": "#005590"
         }
     },{
@@ -157,7 +156,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 5.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 05.png",
             "bgColor": "#005590"
         }
     },{
@@ -173,7 +172,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 6.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 06.png",
             "bgColor": "#00644C"
         }
     },{
@@ -189,7 +188,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 6.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 06.png",
             "bgColor": "#00644C"
         }
     },{
@@ -205,7 +204,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 7.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 07.png",
             "bgColor": "#63AD46"
         }
     },{
@@ -221,7 +220,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 7.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 07.png",
             "bgColor": "#63AD46"
         }
     },{
@@ -237,7 +236,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 8.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 08.png",
             "bgColor": "#EFF0F0"
         }
     },{
@@ -253,7 +252,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 8.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 08.png",
             "bgColor": "#EFF0F0"
         }
     },{
@@ -269,7 +268,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 9.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 09.png",
             "bgColor": "#008DCF"
         }
     },{
@@ -285,7 +284,7 @@
         },
         "layout": "full",
         "content": {
-            "image": "AMC Bus Pylon Daktronics_Bay 9.png",
+            "image": "AMC Bus Pylon Daktronics_Bay 09.png",
             "bgColor": "#008DCF"
         }
     },{

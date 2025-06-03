@@ -29,3 +29,24 @@ Data is separated by Screen types:
 * bus-bay-pylons.json
 * concourse-info.json
 
+# Data Format
+
+Bus Bay Pylons - partial screens
+
+```
+  "layout": "partial",
+  "content": {
+      "imageTop": "AMC Bus Pylon Daktronics_Bay 3B.png",
+      "imageBottom": "AMC Bus Pylon Daktronics_Bay 3B.png",
+      "bgColor": "#ffd200"
+  }
+```
+
+Bus Bay Pylons - full screens
+```
+  "layout": "full",
+  "content": {
+      "image": "AMC Bus Pylon Daktronics_Bay 03.png",
+      "bgColor": "#58595B"
+  }
+```

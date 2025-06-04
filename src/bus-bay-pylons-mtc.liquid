@@ -9,7 +9,7 @@ pagination:
 permalink: "mtc/{{ screen.mca.displayId }}/{{ screen.mca.screen }}/"
 ---
 
-<img src="/images/{{ screen.content.image }}">
+<img src="/images/{{ screen.content.image }}?now={{ 'now' | date: "%s" }}">
 
 <script>
     document.querySelector('body').style.backgroundColor = '{{ screen.content.bgColor }}';

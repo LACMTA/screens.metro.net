@@ -9,9 +9,9 @@
 
     <link rel="stylesheet" href="https://use.typekit.net/goe1fni.css">
 
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/main.css?now={{ 'now' | date: "%s" }}">
 
     {% if css %}
-        <link rel="stylesheet" href="/css/{{ css }}">
+        <link rel="stylesheet" href="/css/{{ css }}?now={{ 'now' | date: "%s" }}">
     {% endif %}
 </head>

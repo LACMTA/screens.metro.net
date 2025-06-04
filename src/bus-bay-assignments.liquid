@@ -23,11 +23,11 @@ permalink: "/{{ screen.id }}/"
                 <div class="service-agency-info" style="background-color: {{bay_route.bgColor}};">
                     <!-- If bay_route.route doesn't exist --> 
                     {% if bay_route.route == "" %}
-                        <div class="agency-logo-full"><img src="/images/{{ bay_route.agency }}"></div>
+                        <div class="agency-logo-full"><img src="/images/{{ bay_route.agency }}?now={{ 'now' | date: "%s" }}"></div>
                     {% else %}
                         <div class="route-number">{{ bay_route.route }}</div>
                         {% if bay_route.agency contains ".png" %}
-                            <div class="agency-logo"><img src="/images/{{ bay_route.agency }}"></div>
+                            <div class="agency-logo"><img src="/images/{{ bay_route.agency }}?now={{ 'now' | date: "%s" }}"></div>
                         {% else %}
                             <div class="agency-logo">{{ bay_route.agency }}</div>
                         {% endif %}

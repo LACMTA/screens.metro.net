@@ -30,8 +30,8 @@ css: list.css
 
 ## Bus Assignment Screen
 
-[Bus Assignment Screen](/200/)
+[/200/](/200/)
 
 ## PSA Screen
 
-[PSA Screen](/300/)
+[/300/](/300/)

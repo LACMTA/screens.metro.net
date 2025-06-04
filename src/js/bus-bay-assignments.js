@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const content = document.getElementById("bba-content");
     
     const rowsPerScroll = 4;  // Number of rows to scroll at a time
-    const pauseDuration = 4000; // Speed for scrolling in milliseconds (duration for the 4 rows to scroll)
+    const pauseDuration = 6000; // 4 seconds
 
     function scrollRows() {
         const rows = Array.from(content.querySelectorAll(".assignment-row"));

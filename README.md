@@ -1,7 +1,7 @@
 # screens.metro.net
 This repository generates HTML pages used on some Metro displays
 
-# LAX/Metro Transit Center (MTC) Station
+## LAX/Metro Transit Center (MTC) Station
 
 Screen Types:
 
@@ -15,7 +15,7 @@ Screen Types:
   * Full Screen - 1080px x 1920px  
   * Partial Screen - 1080px x 804px
 
-# Pages
+## Pages
 
 Each screen is currently generating pages at both these path formats:
 
@@ -29,7 +29,7 @@ Data is separated by Screen types:
 * bus-bay-pylons.json
 * concourse-info.json
 
-# Data Format
+## Data Format
 
 Bus Bay Pylons - partial screens
 
@@ -50,3 +50,11 @@ Bus Bay Pylons - full screens
       "bgColor": "#58595B"
   }
 ```
+
+## Content Updates
+
+Update `version.txt` each time changes are made.
+
+`reload.js` script on pages will check the version.txt file and reload the page if there is a new version number.
+
+It also contains a timer to reload the page if it has been running continuously for 24 hours.

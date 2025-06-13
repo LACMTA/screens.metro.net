@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "_includes/head.liquid" %}
+
+<body>
+    {{ content }}
+    
+    <script src="/js/east-portal-tower.js?now={{ 'now' | date: "%s" }}"></script>
+    <script src="/js/reload.js"></script>
+</body>
+</html>

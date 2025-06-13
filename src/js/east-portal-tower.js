@@ -76,7 +76,7 @@ function updateView() {
         alertContent.className = 'alert-content';
 
         const alertHeader = document.createElement('h2');
-        alertHeader.textContent = alert.headerText;
+        alertHeader.textContent = toTitleCase(alert.headerText);
         alertContent.appendChild(alertHeader);
 
         const alertDescription = document.createElement('p');
@@ -91,6 +91,19 @@ function updateView() {
         
         alertContainer.appendChild(alertElement);
     });   
+}
+
+function toTitleCase(text) {
+    let result = '';
+    let textArr = text.split(' ');
+    
+    textArr.forEach(word => {
+        if (word.length > 0) {
+            result += word.charAt(0).toUpperCase() + word.slice(1).toLowerCase() + ' ';
+        }
+    });
+
+    return result;
 }
 
 const scrollSpeed = 1; // pixels per frame
@@ -114,11 +127,17 @@ function scrollStep() {
     const maxScroll = container.scrollHeight - container.clientHeight;
     const currentScroll = container.scrollTop;
 
-    if (currentScroll >= maxScroll) {
+    // round up currentScroll
+
+    if (Math.ceil(currentScroll) >= maxScroll) {
         paused = true;
         setTimeout(() => {
-          container.scrollTo({ top: 0, behavior: 'auto'});
-          paused = false;
+            container.scrollTo({ top: 0, behavior: 'auto'});
+            
+            // Pause again *after* scrolling to top
+            setTimeout(() => {
+                paused = false;
+            }, pauseDuration);
         }, pauseDuration);
         return;
       }

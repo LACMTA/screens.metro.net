@@ -40,6 +40,9 @@ function processAlerts(data) {
             if (alert.headerText.toLowerCase().includes('elevator') || alert.headerText.toLowerCase().includes('escalator') || 
             alert.descriptionText.toLowerCase().includes('elevator') || alert.descriptionText.toLowerCase().includes('escalator')) {
                 // this is an elevator or escalator alert, skip it
+            } else if (isUpcoming(alert)) {
+                // this is an upcoming alert, not an active alert, skip it
+
             } else {
                 currentRailAlerts.push(alert);
             }
@@ -54,6 +57,28 @@ function processAlerts(data) {
     }
 
     startScrolling();
+}
+
+function isUpcoming(alert) {
+    let today = new Date();
+    let startTime = new Date(formatDate(alert.activePeriods[0].start));
+    let status = today < startTime
+    return status;
+}
+
+function formatDate(time) {
+    const date = new Date(time);
+
+    let result = date.toLocaleString('en-US', {
+        year: "2-digit",
+        month: "numeric",
+        day: "numeric",
+        hour: "numeric",
+        minute: "numeric",
+        hour12: true
+    });
+
+    return result;
 }
 
 function updateView() {

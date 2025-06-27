@@ -9,7 +9,8 @@ const LINE_ICONS = {
     '807': 'https://lacmta.github.io/metro-iconography/Service_KLine.svg',
     '901': 'https://lacmta.github.io/metro-iconography/Service_GLine.svg',
     '910': 'https://lacmta.github.io/metro-iconography/Service_JLine.svg',
-    '950': 'https://lacmta.github.io/metro-iconography/Service_JLine.svg'
+    '950': 'https://lacmta.github.io/metro-iconography/Service_JLine.svg',
+    'systemwide': '/images/alert.svg'
 };
 
 const DATA_SOURCE = [RAIL_ALERTS];
@@ -92,9 +93,17 @@ function updateView() {
 
         alert.informedEntities.forEach(entity => {
             let iconImg = document.createElement('img');
-            iconImg.src = LINE_ICONS[entity.routeId];
+
+            // Check if this is a systemwide alert
+            if (entity.routeId == undefined) {
+                console.log('Systemwide alert detected');
+                iconImg.src = LINE_ICONS['systemwide'];
+            } else {
+                iconImg.src = LINE_ICONS[entity.routeId];
+            }
+
             iconImg.classList.add('line-icon');
-            alertElement.appendChild(iconImg);
+                alertElement.appendChild(iconImg);
         });
 
         const alertContent = document.createElement('div');

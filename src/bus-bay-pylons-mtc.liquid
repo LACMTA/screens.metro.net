@@ -6,10 +6,13 @@ pagination:
     data: bus-bay-pylons
     size: 1
     alias: screen
-permalink: "mtc/{{ screen.mca.displayId }}/{{ screen.mca.screen }}/"
+permalink: "mtc/{{ screen.mcaDisplayId }}/{{ screen.mcaScreen }}/"
 ---
 
-<img src="/images/{{ screen.content.image }}?now={{ 'now' | date: "%s" }}">
+<script>
+    const screen = {{ screen | json }};
+    const contentArray = {{ screen.content | json }};
+</script>
 
 <script>
     document.querySelector('body').style.backgroundColor = '{{ screen.content.bgColor }}';

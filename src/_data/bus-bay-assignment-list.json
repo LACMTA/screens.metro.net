@@ -1,63 +1,39 @@
 [
     {
         "id": "200",
-        "mca": {
-            "displayId": "1628"
-        }
+        "mcaDisplayId": "1628"
     },{
         "id": "201",
-        "mca": {
-            "displayId": "1629"
-        }
+        "mcaDisplayId": "1629"
     }, {
         "id": "202",
-        "mca": {
-            "displayId": "1632"
-        }
+        "mcaDisplayId": "1632"
     }, {
         "id": "203",
-        "mca": {
-            "displayId": "1633"
-        }
+        "mcaDisplayId": "1633"
     }, {
         "id": "204",
-        "mca": {
-            "displayId": "1634"
-        }
+        "mcaDisplayId": "1634"
     }, {
         "id": "205",
-        "mca": {
-            "displayId": "1635"
-        }
+        "mcaDisplayId": "1635"
     }, {
         "id": "206",
-        "mca": {
-            "displayId": "1636"
-        }
+        "mcaDisplayId": "1636"
     }, {
         "id": "207",
-        "mca": {
-            "displayId": "1637"
-        }
+        "mcaDisplayId": "1637"
     }, {
         "id": "208",
-        "mca": {
-            "displayId": "1638"
-        }
+        "mcaDisplayId": "1638"
     }, {
         "id": "209",
-        "mca": {
-            "displayId": "1639"
-        }
+        "mcaDisplayId": "1639"
     }, {
         "id": "210",
-        "mca": {
-            "displayId": "1640"
-        }
+        "mcaDisplayId": "1640"
     }, {
         "id": "211",
-        "mca": {
-            "displayId": "1641"
-        }
+        "mcaDisplayId": "1641"
     }
 ]

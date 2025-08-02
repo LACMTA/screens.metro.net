@@ -33,6 +33,8 @@ function updateScreenContent() {
         return;
     }
 
+    document.querySelector('body').style.backgroundColor = activeEntry.backgroundColor || '#000000'; // Default to white if no color is specified
+
     if (screen.layout == 'full') {
         let img = document.createElement('img');
         img.src = '/images/' + activeEntry.image + '?now=' + now.getTime();
@@ -44,7 +46,7 @@ function updateScreenContent() {
         let imgBottom = document.createElement('img');
 
         imgTop.src = '/images/' + activeEntry.imageTop + '?now=' + now.getTime();
-        imgBottom.src = '/images/' + activeEntry.imgBottom + '?now=' + now.getTime();
+        imgBottom.src = '/images/' + activeEntry.imageBottom + '?now=' + now.getTime();
 
         body.innerHTML = ''; // Clear existing content
         body.appendChild(imgTop);

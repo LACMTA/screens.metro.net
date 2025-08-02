@@ -13,7 +13,3 @@ permalink: "/{{ screen.id }}/"
     const screen = {{ screen | json }};
     const contentArray = {{ screen.content | json }};
 </script>
-
-<script>
-    document.querySelector('body').style.backgroundColor = '{{ screen.content.bgColor }}';
-</script>

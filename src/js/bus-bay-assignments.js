@@ -120,7 +120,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 serviceAgencyInfo.className = 'service-agency-info';
 
                 // Set the background color based on the bay route's backgroundColor
-                serviceAgencyInfo.style.backgroundColor = bay_route.backgroundColor
+                serviceAgencyInfo.style.backgroundColor = bay_route.backgroundColor;
 
                 if (bay_route.route == "") {
                     // No route indicated

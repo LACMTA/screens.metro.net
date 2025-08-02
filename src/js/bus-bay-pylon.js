@@ -34,7 +34,7 @@ function updateScreenContent() {
     }
 
     // Default to black if no color is specified
-    document.querySelector('body').style.backgroundColor = activeEntry.backgroundColor || '#000000';
+    body.style.backgroundColor = activeEntry.backgroundColor || '#000000';
 
     if (screen.layout == 'full') {
         let img = document.createElement('img');

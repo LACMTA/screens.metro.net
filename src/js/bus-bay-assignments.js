@@ -88,7 +88,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
         // Loop through the active order's assignments
         activeOrder.order.forEach(bay => {
-            let bay_routes = bus_bay_assignments.bay_assignments[bay].routes
+            let bay_routes = bus_bay_assignments.bay_assignments[bay].routes;
 
             // Sort the bay routes by the order field
             bay_routes.sort((a, b) => {

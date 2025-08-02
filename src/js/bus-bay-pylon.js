@@ -27,6 +27,12 @@ function updateScreenContent() {
 
     let body = document.querySelector('body');
 
+    // If no active entry is found, display a message
+    if (!activeEntry) {
+        console.log('No active content found for the current time.');
+        return;
+    }
+
     if (screen.layout == 'full') {
         let img = document.createElement('img');
         img.src = '/images/' + activeEntry.image + '?now=' + now.getTime();

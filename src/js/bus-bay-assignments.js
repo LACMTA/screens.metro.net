@@ -80,6 +80,12 @@ window.addEventListener("DOMContentLoaded", () => {
         // Clear existing content
         wrapper.innerHTML = '';
 
+        // If no active order is found, display a message
+        if (!activeOrder) {
+            console.log('No active order found for the current time.');
+            return;
+        }
+
         // Loop through the active order's assignments
         activeOrder.order.forEach(bay => {
             let bay_routes = bus_bay_assignments.bay_assignments[bay].routes

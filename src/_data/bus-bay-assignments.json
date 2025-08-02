@@ -1,20 +1,46 @@
 {
     "bay_order": [
-        "1",
-        "2",
-        "14",
-        "4",
-        "5",
-        "10",
-        "7",
-        "6",
-        "8",
-        "9",
-        "13",
-        "12",
-        "11",
-        "15",
-        "16"
+        {
+            "id": "default order",
+            "start_time": "2025-07-01T00:00:00Z",
+            "end_time": "2099-01-01T00:00:00Z",
+            "order": [
+                "1",
+                "2",
+                "14",
+                "4",
+                "5",
+                "10",
+                "7",
+                "6",
+                "8",
+                "9",
+                "13",
+                "12",
+                "11",
+                "15"
+            ]
+        }, {
+            "id": "HARD Summer Fest - Saturday",
+            "start_time": "2025-08-01T23:22:00Z",
+            "end_time": "2025-08-01T23:25:00Z",
+            "order": [
+                "1",
+                "2",
+                "8",
+                "14",
+                "4",
+                "5",
+                "10",
+                "7",
+                "6",
+                "9",
+                "13",
+                "12",
+                "11",
+                "15"
+            ]
+        }
     ],
     "bay_assignments": {
         "1": {
@@ -22,12 +48,14 @@
             "bay": "1",
             "routes": [
                 {
-                    "agency": "lax-shuttle-logo.png",
                     "route": "",
                     "description": "LAX Shuttle",
                     "image": "lax-shuttle-logo.png",
-                    "bgColor": "#00a5ce"
-                
+                    "backgroundColor": "#00a5ce",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -36,11 +64,14 @@
             "bay": "2",
             "routes": [
                 {
-                    "agency": "lax-shuttle-logo.png",
                     "route": "",
                     "description": "LAX Shuttle",
                     "image": "lax-shuttle-logo.png",
-                    "bgColor": "#00a5ce"
+                    "backgroundColor": "#00a5ce",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -49,11 +80,14 @@
             "bay": "4",
             "routes": [
                 {
-                    "agency": "big-blue-bus-logo.png",
                     "route": "3",
                     "description": "Downtown Santa Monica",
-                    "image": "bigbluebus-3.png",
-                    "bgColor": "#005590"
+                    "image": "big-blue-bus-logo.png",
+                    "backgroundColor": "#005590",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -62,11 +96,14 @@
             "bay": "5",
             "routes": [
                 {
-                    "agency": "big-blue-bus-logo.png",
                     "route": "3",
                     "description": "Downtown Santa Monica",
-                    "image": "bigbluebus-r3.png",
-                    "bgColor": "#005590"
+                    "image": "big-blue-bus-logo.png",
+                    "backgroundColor": "#005590",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -75,11 +112,14 @@
             "bay": "6",
             "routes": [
                 {
-                    "agency": "torrance-transit-logo.png",
                     "route": "8",
                     "description": "Torrance",
-                    "image": "torrance-8.png",
-                    "bgColor": "#00644c"
+                    "image": "torrance-transit-logo.png",
+                    "backgroundColor": "#00644c",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -88,17 +128,23 @@
             "bay": "7",
             "routes": [
                 {
-                    "agency": "culver-city-bus-logo.png",
                     "route": "6",
                     "description": "UCLA via Sepulveda Bl",
-                    "image": "culvercity-6.png",
-                    "bgColor": "#63ad46"
+                    "image": "culver-city-bus-logo.png",
+                    "backgroundColor": "#63ad46",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 },{
-                    "agency": "culver-city-bus-logo.png",
                     "route": "R6",
                     "description": "UCLA via Sepulveda Bl",
-                    "image": "culvercity-r6.png",
-                    "bgColor": "#63ad46"
+                    "image": "culver-city-bus-logo.png",
+                    "backgroundColor": "#63ad46",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 2
                 }
             ]
         },
@@ -107,12 +153,52 @@
             "bay": "8",
             "routes": [
                 {
-                    "agency": "metro-logo.png",
                     "route": "102",
                     "description": "South Gate",
-                    "image": "metro-102.png",
-                    "bgColor": "#f48120"
+                    "image": "metro-logo.png",
+                    "backgroundColor": "#f48120",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2025-08-02T20:30:00Z",
+                    "order": 1
+                },{
+                    "route": "",
+                    "description": "Hollywood Park",
+                    "image": "Shuttle_Bus Bay Directory_Logo Badge_484x176.png",
+                    "backgroundColor": "#ffffff",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-08-02T20:30:00Z",
+                    "end_time": "2025-08-03T02:30:00Z",
+                    "order": 1
+                },{
+                    "route": "102",
+                    "description": "South Gate",
+                    "image": "metro-logo.png",
+                    "backgroundColor": "#f48120",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-08-03T02:30:00Z",
+                    "end_time": "2025-08-03T20:30:00Z",
+                    "order": 1
+                },{
+                    "route": "",
+                    "description": "Hollywood Park",
+                    "image": "Shuttle_Bus Bay Directory_Logo Badge_484x176.png",
+                    "backgroundColor": "#ffffff",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-08-03T20:30:00Z",
+                    "end_time": "2025-08-04T02:30:00Z",
+                    "order": 1
+                },{
+                    "route": "102",
+                    "description": "South Gate",
+                    "image": "metro-logo.png",
+                    "backgroundColor": "#f48120",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-08-03T02:30:00Z",
+                    "end_time": "2025-08-03T20:30:00Z",
+                    "order": 1
                 }
+
             ]
         },
         "9": {
@@ -120,11 +206,32 @@
             "bay": "9",
             "routes": [
                 {
-                    "agency": "beach-cities-transit-logo.png",
                     "route": "109",
                     "description": "Redondo Beach Riviera Village",
-                    "image": "bct-109.png",
-                    "bgColor": "#008dcf"
+                    "image": "beach-cities-transit-logo.png",
+                    "backgroundColor": "#008dcf",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 2
+                },{
+                    "route": "102",
+                    "description": "South Gate",
+                    "image": "metro-logo.png",
+                    "backgroundColor": "#f48120",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-08-02T20:30:00Z",
+                    "end_time": "2025-08-03T02:30:00Z",
+                    "order": 1
+                },{
+                    "route": "102",
+                    "description": "South Gate",
+                    "image": "metro-logo.png",
+                    "backgroundColor": "#f48120",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-08-03T20:30:00Z",
+                    "end_time": "2025-08-04T02:30:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -133,11 +240,14 @@
             "bay": "10",
             "routes": [
                 {
-                    "agency": "gardena-transit-logo.png",
                     "route": "5",
                     "description": "Willowbrook/Rosa Parks Station",
-                    "image": "gardena-5.png",
-                    "bgColor": "#40af49"
+                    "image": "gardena-transit-logo.png",
+                    "backgroundColor": "#40af49",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -146,11 +256,14 @@
             "bay": "11",
             "routes": [
                 {
-                    "agency": "metro-logo.png",
                     "route": "120",
                     "description": "Whittwood Center via Imperial Hwy",
-                    "image": "metro-120.png",
-                    "bgColor": "#f48120"
+                    "image": "metro-logo.png",
+                    "backgroundColor": "#f48120",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -159,11 +272,14 @@
             "bay": "12",
             "routes": [
                 {
-                    "agency": "metro-logo.png",
                     "route": "117",
                     "description": "Downey",
-                    "image": "metro-117.png",
-                    "bgColor": "#f48120"
+                    "image": "metro-logo.png",
+                    "backgroundColor": "#f48120",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -172,11 +288,14 @@
             "bay": "13",
             "routes": [
                 {
-                    "agency": "metro-logo.png",
                     "route": "111",
                     "description": "Norwalk Station via Florence Av",
-                    "image": "metro-111.png",
-                    "bgColor": "#f48120"
+                    "image": "metro-logo.png",
+                    "backgroundColor": "#f48120",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -185,11 +304,14 @@
             "bay": "14",
             "routes": [
                 {
-                    "agency": "metro-micro-logo.png",
                     "route": "",
                     "description": "Metro Micro",
                     "image": "metro-micro-logo.png",
-                    "bgColor": "#0a2440"
+                    "backgroundColor": "#0a2440",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         },
@@ -198,24 +320,14 @@
             "bay": "15",
             "routes": [
                 {
-                    "agency": "metro-logo.png",
                     "route": "232",
                     "description": "Long Beach",
-                    "image": "metro-232.png",
-                    "bgColor": "#f48120"
-                }
-            ]
-        },
-        "16": {
-            "empty": true,
-            "bay": "",
-            "routes": [
-                {
-                    "agency": "",
-                    "route": "",
-                    "description": "",
-                    "image": "",
-                    "bgColor": ""
+                    "image": "metro-logo.png",
+                    "backgroundColor": "#f48120",
+                    "textColor": "#ffffff",
+                    "start_time": "2025-07-01T00:00:00Z",
+                    "end_time": "2099-01-01T00:00:00Z",
+                    "order": 1
                 }
             ]
         }

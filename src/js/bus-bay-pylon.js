@@ -33,7 +33,8 @@ function updateScreenContent() {
         return;
     }
 
-    document.querySelector('body').style.backgroundColor = activeEntry.backgroundColor || '#000000'; // Default to white if no color is specified
+    // Default to black if no color is specified
+    document.querySelector('body').style.backgroundColor = activeEntry.backgroundColor || '#000000';
 
     if (screen.layout == 'full') {
         let img = document.createElement('img');

@@ -228,16 +228,16 @@
             "end_time": "2099-01-01T08:00:00Z",
             "image": "AMC Bus Pylon Daktronics_Bay 09.png",
             "bgColor": "#008DCF"
-            }, {
-                "start_time": "2025-08-02T20:30:00Z",
-                "end_time": "2025-08-03T02:30:00Z",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "bgColor": "#00A5CE"
-            }, {
-                "start_time": "2025-08-03T20:30:00Z",
-                "end_time": "2025-08-04T02:30:00Z",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "bgColor": "#00A5CE"
+        }, {
+            "start_time": "2025-08-02T20:30:00Z",
+            "end_time": "2025-08-03T02:30:00Z",
+            "image": "Shuttle_Bus Bay 9_1920x1080.png",
+            "bgColor": "#00A5CE"
+        }, {
+            "start_time": "2025-08-03T20:30:00Z",
+            "end_time": "2025-08-04T02:30:00Z",
+            "image": "Shuttle_Bus Bay 9_1920x1080.png",
+            "bgColor": "#00A5CE"
         }]
     },{
         "id": "19",

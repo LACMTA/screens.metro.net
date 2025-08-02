@@ -177,7 +177,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 row.appendChild(serviceBayInfo);
                 
                 wrapper.appendChild(row);
-                rowCount ++;
+                rowCount++;
             });           
         });
 

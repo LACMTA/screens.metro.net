@@ -2,12 +2,15 @@
 layout: "bus-bay-assignments.liquid"
 title: "LAX/MTC Station"
 css: bus-bay-assignments.css
-pagination:
-    data: bus-bay-assignment-list
-    size: 1
-    alias: screen
-permalink: "/{{ screen.id }}/"
+permalink: "/200/"
 ---
+
+<script>
+    const bus_bay_assignments = {
+        "bay_order": {{ bus-bay-assignments.bay_order | json }},
+        "bay_assignments": {{ bus-bay-assignments.bay_assignments | json }}
+    };
+</script>
 
 {% assign bay_order_arr = bus-bay-assignments.bay_order %}
 {% assign bay_details = bus-bay-assignments.bay_assignments %}

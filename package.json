@@ -4,9 +4,10 @@
   "description": "generates html pages that are used on some Metro screens",
   "main": "index.js",
   "scripts": {
+    "clear": "npx rimraf _site",
     "test": "test",
-    "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve"
+    "build": "npm run clear && npx @11ty/eleventy",
+    "start": "npm run clear && npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",

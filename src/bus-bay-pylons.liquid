@@ -9,13 +9,7 @@ pagination:
 permalink: "/{{ screen.id }}/"
 ---
 
-{% if screen.layout == "full" %}
-    <img src="/images/{{ screen.content.image }}?now={{ 'now' | date: "%s" }}">
-{% elsif screen.layout == "partial" %}
-    <img src="/images/{{ screen.content.imageTop }}?now={{ 'now' | date: "%s" }}">
-    <img src="/images/{{ screen.content.imageBottom }}?now={{ 'now' | date: "%s" }}">
-{% endif %}
-
 <script>
-    document.querySelector('body').style.backgroundColor = '{{ screen.content.bgColor }}';
+    const screen = {{ screen | json }};
+    const contentArray = {{ screen.content | json }};
 </script>

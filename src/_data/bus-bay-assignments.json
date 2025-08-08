@@ -21,9 +21,9 @@
                 "15"
             ]
         }, {
-            "id": "HARD Summer Fest - Saturday",
-            "start_time": "2025-08-02T20:30:00Z",
-            "end_time": "2025-08-03T02:30:00Z",
+            "id": "SoFi Shuttle - Saturday",
+            "start_time": "2025-08-09T20:00:00Z",
+            "end_time": "2025-08-09T23:00:00Z",
             "order": [
                 "1",
                 "2",
@@ -41,9 +41,9 @@
                 "15"
             ]
         }, {
-            "id": "HARD Summer Fest - Sunday",
-            "start_time": "2025-08-03T20:30:00Z",
-            "end_time": "2025-08-04T02:30:00Z",
+            "id": "SoFi Shuttle - Sunday",
+            "start_time": "2025-08-10T17:05:00Z",
+            "end_time": "2025-08-10T20:05:00Z",
             "order": [
                 "1",
                 "2",
@@ -183,12 +183,12 @@
                     "order": 1
                 },{
                     "route": "",
-                    "description": "Hollywood Park",
+                    "description": "SoFi Stadium",
                     "image": "Shuttle_Bus Bay Directory_Logo Badge_484x176.png",
                     "backgroundColor": "#ffffff",
                     "textColor": "#ffffff",
-                    "start_time": "2025-08-02T20:30:00Z",
-                    "end_time": "2025-08-03T02:30:00Z",
+                    "start_time": "2025-08-09T20:00:00Z",
+                    "end_time": "2025-08-09T23:00:00Z",
                     "order": 1
                 },{
                     "route": "102",
@@ -196,17 +196,17 @@
                     "image": "metro-logo.png",
                     "backgroundColor": "#f48120",
                     "textColor": "#ffffff",
-                    "start_time": "2025-08-03T02:30:00Z",
-                    "end_time": "2025-08-03T20:30:00Z",
+                    "start_time": "2025-08-09T23:00:00Z",
+                    "end_time": "2025-08-10T17:05:00Z",
                     "order": 1
                 },{
                     "route": "",
-                    "description": "Hollywood Park",
+                    "description": "SoFi Stadium",
                     "image": "Shuttle_Bus Bay Directory_Logo Badge_484x176.png",
                     "backgroundColor": "#ffffff",
                     "textColor": "#ffffff",
-                    "start_time": "2025-08-03T20:30:00Z",
-                    "end_time": "2025-08-04T02:30:00Z",
+                    "start_time": "2025-08-10T17:05:00Z",
+                    "end_time": "2025-08-10T20:05:00Z",
                     "order": 1
                 },{
                     "route": "102",
@@ -214,7 +214,7 @@
                     "image": "metro-logo.png",
                     "backgroundColor": "#f48120",
                     "textColor": "#ffffff",
-                    "start_time": "2025-08-04T02:30:00Z",
+                    "start_time": "2025-08-10T20:05:00Z",
                     "end_time": "2099-01-01T00:00:00Z",
                     "order": 1
                 }
@@ -240,8 +240,8 @@
                     "image": "metro-logo.png",
                     "backgroundColor": "#f48120",
                     "textColor": "#ffffff",
-                    "start_time": "2025-08-02T20:30:00Z",
-                    "end_time": "2025-08-03T02:30:00Z",
+                    "start_time": "2025-08-09T20:00:00Z",
+                    "end_time": "2025-08-09T23:00:00Z",
                     "order": 1
                 },{
                     "route": "102",
@@ -249,8 +249,8 @@
                     "image": "metro-logo.png",
                     "backgroundColor": "#f48120",
                     "textColor": "#ffffff",
-                    "start_time": "2025-08-03T20:30:00Z",
-                    "end_time": "2025-08-04T02:30:00Z",
+                    "start_time": "2025-08-10T17:05:00Z",
+                    "end_time": "2025-08-10T20:05:00Z",
                     "order": 1
                 }
             ]

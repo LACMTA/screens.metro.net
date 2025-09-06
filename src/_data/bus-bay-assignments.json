@@ -22,8 +22,8 @@
             ]
         }, {
             "id": "SoFi Shuttle - Saturday",
-            "start_time": "2025-08-16T20:00:00Z",
-            "end_time": "2025-08-16T23:00:00Z",
+            "start_time": "2025-09-06T17:25:00Z",
+            "end_time": "2025-09-06T20:25:00Z",
             "order": [
                 "1",
                 "2",
@@ -159,7 +159,7 @@
                     "backgroundColor": "#f48120",
                     "textColor": "#ffffff",
                     "start_time": "2025-07-01T00:00:00Z",
-                    "end_time": "2025-08-16T20:00:00Z",
+                    "end_time": "2025-09-06T17:25:00Z",
                     "order": 1
                 },{
                     "route": "",
@@ -167,8 +167,8 @@
                     "image": "Shuttle_Bus Bay Directory_Logo Badge_484x176.png",
                     "backgroundColor": "#ffffff",
                     "textColor": "#ffffff",
-                    "start_time": "2025-08-16T20:00:00Z",
-                    "end_time": "2025-08-16T23:00:00Z",
+                    "start_time": "2025-09-06T17:25:00Z",
+                    "end_time": "2025-09-06T20:25:00Z",
                     "order": 1
                 },{
                     "route": "102",
@@ -176,7 +176,7 @@
                     "image": "metro-logo.png",
                     "backgroundColor": "#f48120",
                     "textColor": "#ffffff",
-                    "start_time": "2025-08-16T23:00:00Z",
+                    "start_time": "2025-09-06T17:25:00Z",
                     "end_time": "2099-01-01T17:05:00Z",
                     "order": 1
                 }
@@ -201,8 +201,8 @@
                     "image": "metro-logo.png",
                     "backgroundColor": "#f48120",
                     "textColor": "#ffffff",
-                    "start_time": "2025-08-16T20:00:00Z",
-                    "end_time": "2025-08-16T23:00:00Z",
+                    "start_time": "2025-09-06T17:25:00Z",
+                    "end_time": "2025-09-06T20:25:00Z",
                     "order": 1
                 }
             ]

@@ -65,8 +65,8 @@
         },
         {
             "id": "SoFi Shuttle - Thursday 10/02",
-            "start_time": "2025-09-28 10:05:00",
-            "end_time": "2025-09-28 13:05:00",
+            "start_time": "2025-10-02 10:05:00",
+            "end_time": "2025-10-02 13:05:00",
             "order": [
                 "1",
                 "2",
@@ -489,17 +489,7 @@
                     "start_time": "2025-09-28 10:05:00",
                     "end_time": "2025-09-28 13:05:00",
                     "order": 1
-                },
-                {
-                    "route": "",
-                    "description": "SoFi Stadium",
-                    "image": "Shuttle_Bus Bay Directory_Logo Badge_484x176.png",
-                    "backgroundColor": "#ffffff",
-                    "textColor": "#ffffff",
-                    "start_time": "2025-09-28 10:05:00",
-                    "end_time": "2025-09-28 13:05:00",
-                    "order": 1
-                },
+                }
                 {
                     "route": "",
                     "description": "SoFi Stadium",
@@ -645,17 +635,7 @@
                     "start_time": "2025-09-28 10:05:00",
                     "end_time": "2025-09-28 13:05:00",
                     "order": 1
-                },
-                {
-                    "route": "102",
-                    "description": "South Gate",
-                    "image": "metro-logo.png",
-                    "backgroundColor": "#f48120",
-                    "textColor": "#ffffff",
-                    "start_time": "2025-09-28 10:05:00",
-                    "end_time": "2025-09-28 13:05:00",
-                    "order": 1
-                },
+                }
                 {
                     "route": "102",
                     "description": "South Gate",

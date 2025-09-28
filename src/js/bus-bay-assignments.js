@@ -1,3 +1,7 @@
+const DateTime = luxon.DateTime;
+const datetimeFormat = 'yyyy-MM-dd HH:mm:ss';
+const datetimeZone = 'America/Los_Angeles';
+
 window.addEventListener("DOMContentLoaded", () => {
     const dateTimeElement = document.getElementById("date-time");
     const content = document.getElementById("bba-content");
@@ -28,26 +32,27 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
     function formatDateTime() {
-        const now = new Date();
+        const now = DateTime.now();
+        const format = 'M/d/yyyy  h:mm a';
         
         // Format: MM/DD/YYYY  hh:mm AM/PM
-        const month = String(now.getMonth() + 1);
-        const day = String(now.getDate());
-        const year = now.getFullYear(); // Get full year (YYYY)
+        // const month = String(now.getMonth() + 1);
+        // const day = String(now.getDate());
+        // const year = now.getFullYear(); // Get full year (YYYY)
         
-        let hours = now.getHours();
-        const minutes = String(now.getMinutes()).padStart(2, '0'); // Get minutes and pad to 2 digits
-        const ampm = hours >= 12 ? 'PM' : 'AM'; // Determine AM/PM
+        // let hours = now.getHours();
+        // const minutes = String(now.getMinutes()).padStart(2, '0'); // Get minutes and pad to 2 digits
+        // const ampm = hours >= 12 ? 'PM' : 'AM'; // Determine AM/PM
         
-        hours = hours % 12; // Convert hours to 12-hour format
-        hours = hours ? String(hours) : '12'; // Convert 0 hour to 12 (for 12 AM)
+        // hours = hours % 12; // Convert hours to 12-hour format
+        // hours = hours ? String(hours) : '12'; // Convert 0 hour to 12 (for 12 AM)
         
-        const formattedTime = `${month}/${day}/${year}  ${hours}:${minutes} ${ampm}`;
-        dateTimeElement.textContent = formattedTime;
+        // const formattedTime = `${month}/${day}/${year}  ${hours}:${minutes} ${ampm}`;
+        dateTimeElement.textContent = now.toFormat(format);
     }
 
     function updateScreenDisplay() {
-        const now = new Date();
+        const now = DateTime.now();
         let activeOrder = null;
         let shortestOrderTimeSpan = Infinity;
         let rowCount = 0;
@@ -56,11 +61,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
         // Decide the bay order to use
         bus_bay_assignments.bay_order.forEach(orderItem => {
-            let startTime = new Date(orderItem.start_time);
-            let endTime = new Date(orderItem.end_time);
+            let startTime = DateTime.fromFormat(orderItem.start_time, datetimeFormat, { zone: datetimeZone });
+            let endTime = DateTime.fromFormat(orderItem.end_time, datetimeFormat, { zone: datetimeZone });
 
             // Ensure startTime and endTime are valid dates
-            if (isNaN(startTime.getTime()) || isNaN(endTime.getTime())) {
+            if (!startTime.isValid || !endTime.isValid) {
                 console.error('Invalid date in order item:', orderItem);
                 return;
             }
@@ -97,11 +102,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
             bay_routes.forEach(bay_route => {
                 // Check start and end times for each bay route
-                let startTime = new Date(bay_route.start_time);
-                let endTime = new Date(bay_route.end_time);
+                let startTime = DateTime.fromFormat(bay_route.start_time, datetimeFormat, { zone: datetimeZone });
+                let endTime = DateTime.fromFormat(bay_route.end_time, datetimeFormat, { zone: datetimeZone });
 
                 // Ensure startTime and endTime are valid dates
-                if (isNaN(startTime.getTime()) || isNaN(endTime.getTime())) {
+                if (!startTime.isValid || !endTime.isValid) {
                     console.error('Invalid date in bay route:', bay_route);
                     return;
                 }
@@ -110,6 +115,25 @@ window.addEventListener("DOMContentLoaded", () => {
                 if (now < startTime || now > endTime) {
                     // If the current time is outside the start and end times, skip this bay route
                     return;
+                } else {
+                    // Check if the current time is within a hide_time for this bay_route and skip if so
+                    if (bay_route.hide_times) {
+                        for (let hide_time of bay_route.hide_times) {
+                            let hideStartTime = DateTime.fromFormat(hide_time.start_time, datetimeFormat, { zone: datetimeZone });
+                            let hideEndTime = DateTime.fromFormat(hide_time.end_time, datetimeFormat, { zone: datetimeZone });
+
+                            // Ensure hideStartTime and hideEndTime are valid dates
+                            if (!hideStartTime.isValid || !hideEndTime.isValid) {
+                                console.error('Invalid date in hide time:', hide_time);
+                                continue;
+                            }
+
+                            if (now >= hideStartTime && now <= hideEndTime) {
+                                // Current time is within a hide time, skip this bay route
+                                return;
+                            }
+                        }
+                    }
                 }
 
                 // Create a new row for each bay assignment
@@ -128,7 +152,7 @@ window.addEventListener("DOMContentLoaded", () => {
                     agencyLogoFull.className = 'agency-logo-full';
 
                     let agencyLogoImg = document.createElement('img');
-                    agencyLogoImg.src = '/images/' + bay_route.image + '?now=' + now.getTime();
+                    agencyLogoImg.src = '/images/' + bay_route.image + '?now=' + now.toUnixInteger();
 
                     agencyLogoFull.appendChild(agencyLogoImg);
                     serviceAgencyInfo.appendChild(agencyLogoFull);
@@ -145,7 +169,7 @@ window.addEventListener("DOMContentLoaded", () => {
                     // if agency value is a png
                     if(bay_route.image.endsWith('.png')) {
                         let agencyLogoImg = document.createElement('img');
-                        agencyLogoImg.src = '/images/' + bay_route.image + '?now=' + now.getTime();
+                        agencyLogoImg.src = '/images/' + bay_route.image + '?now=' + now.toUnixInteger();
                         agencyLogoPartial.appendChild(agencyLogoImg);
                     } else {
                         agencyLogoPartial.textContent = bay_route.image;

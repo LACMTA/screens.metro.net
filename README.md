@@ -53,7 +53,7 @@ Bus Bay Pylons - full screens
 
 ## Scheduled Content
 
-Times are represented in UTC.  [This tool](https://dateful.com/convert/utc) can help with conversions to local time.
+In the JSON files, the datetimes are represented in `MM-dd-yyyy HH:mm:ss` format for the `America/Los_Angeles` zone.  The Luxon.js library is being used to handle datetimes.
 
 ### Bus Bay Pylons
 
@@ -106,6 +106,9 @@ Bay assignments objects exist for each bay.  There can be multiple routes assign
 }
 ```
 
+9/27/25 - Added a `hide_times` array field to the bay routes for time periods where the the route will be hidden.
+
+
 ## Content Updates
 
 Update `version.txt` each time changes are made.
@@ -113,3 +116,9 @@ Update `version.txt` each time changes are made.
 `reload.js` script on pages will check the version.txt file and reload the page if there is a new version number.
 
 It also contains a timer to reload the page if it has been running continuously for 24 hours.
+
+## 2025 NFL Schedule
+
+By default, Metro Line 102 boards in Bay 8 and Beach Cities Transit Line 109 boards in Bay 9.
+
+During NFL game days, the SoFi Shuttle runs for the 3 hours before the start of the game.  During those 3 hours, the SoFi Shuttle boards in Bay 8 and both the Metro Line 102 and Beach Cities Transit Line 109 board in Bay 9.

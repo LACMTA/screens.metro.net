@@ -1,14 +1,18 @@
+const DateTime = luxon.DateTime;
+const datetimeFormat = 'yyyy-MM-dd HH:mm:ss';
+const datetimeZone = 'America/Los_Angeles';
+
 function updateScreenContent() {
-    const now = new Date();
+    const now = DateTime.now();
     let activeEntry = null;
     let shortestTimeSpan = Infinity;
 
     contentArray.forEach(contentItem => {
-        let startTime = new Date(contentItem.start_time);
-        let endTime = new Date(contentItem.end_time);
+        let startTime = DateTime.fromFormat(contentItem.start_time, datetimeFormat, { zone: datetimeZone });
+        let endTime = DateTime.fromFormat(contentItem.end_time, datetimeFormat, { zone: datetimeZone });
 
         // Ensure startTime and endTime are valid dates
-        if (isNaN(startTime.getTime()) || isNaN(endTime.getTime())) {
+        if (!startTime.isValid || !endTime.isValid) {
             console.error('Invalid date in content item:', contentItem);
             return;
         }
@@ -38,7 +42,7 @@ function updateScreenContent() {
 
     if (screen.layout == 'full') {
         let img = document.createElement('img');
-        img.src = '/images/' + activeEntry.image + '?now=' + now.getTime();
+        img.src = '/images/' + activeEntry.image + '?now=' + now.toUnixInteger();
         
         body.innerHTML = ''; // Clear existing content
         body.appendChild(img);
@@ -46,8 +50,8 @@ function updateScreenContent() {
         let imgTop = document.createElement('img');
         let imgBottom = document.createElement('img');
 
-        imgTop.src = '/images/' + activeEntry.imageTop + '?now=' + now.getTime();
-        imgBottom.src = '/images/' + activeEntry.imageBottom + '?now=' + now.getTime();
+        imgTop.src = '/images/' + activeEntry.imageTop + '?now=' + now.toUnixInteger();
+        imgBottom.src = '/images/' + activeEntry.imageBottom + '?now=' + now.toUnixInteger();
 
         body.innerHTML = ''; // Clear existing content
         body.appendChild(imgTop);

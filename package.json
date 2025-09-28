@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/LACMTA/screens.metro.net/issues"
   },
-  "homepage": "https://github.com/LACMTA/screens.metro.net#readme"
+  "homepage": "https://github.com/LACMTA/screens.metro.net#readme",
+  "dependencies": {
+    "luxon": "^3.7.2"
+  }
 }

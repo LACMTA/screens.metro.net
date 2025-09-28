@@ -6,372 +6,757 @@
         "layout": "full",
         "content": [
             {
-                "start_time": "2025-07-01T08:00:00Z",
-                "end_time": "2099-01-01T08:00:00Z",
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
                 "image": "AMC Bus Pylon Daktronics_Bay 01.png",
                 "backgroundColor": "#00A5CE"
             }
         ]
-    },{
+    },
+    {
         "id": "2",
         "mcaDisplayId": "1546",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 01.png",
-            "backgroundColor": "#00A5CE"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 01.png",
+                "backgroundColor": "#00A5CE"
+            }
+        ]
+    },
+    {
         "id": "3",
         "mcaDisplayId": "1547",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 02.png",
-            "backgroundColor": "#00A5CE"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 02.png",
+                "backgroundColor": "#00A5CE"
+            }
+        ]
+    },
+    {
         "id": "4",
         "mcaDisplayId": "1547",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 02.png",
-            "backgroundColor": "#00A5CE"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 02.png",
+                "backgroundColor": "#00A5CE"
+            }
+        ]
+    },
+    {
         "id": "5",
         "mcaDisplayId": "1548",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 03.png",
-            "backgroundColor": "#58595B"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 03.png",
+                "backgroundColor": "#58595B"
+            }
+        ]
+    },
+    {
         "id": "6",
         "mcaDisplayId": "1548",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 03.png",
-            "backgroundColor": "#ffd200"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 03.png",
+                "backgroundColor": "#ffd200"
+            }
+        ]
+    },
+    {
         "id": "7",
         "mcaDisplayId": "1549",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 04.png",
-            "backgroundColor": "#005590"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 04.png",
+                "backgroundColor": "#005590"
+            }
+        ]
+    },
+    {
         "id": "8",
         "mcaDisplayId": "1549",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 04.png",
-            "backgroundColor": "#005590"
-        }]
-    },    {
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 04.png",
+                "backgroundColor": "#005590"
+            }
+        ]
+    },
+    {
         "id": "9",
         "mcaDisplayId": "1550",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 05.png",
-            "backgroundColor": "#005590"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 05.png",
+                "backgroundColor": "#005590"
+            }
+        ]
+    },
+    {
         "id": "10",
         "mcaDisplayId": "1550",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 05.png",
-            "backgroundColor": "#005590"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 05.png",
+                "backgroundColor": "#005590"
+            }
+        ]
+    },
+    {
         "id": "11",
         "mcaDisplayId": "1551",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 06.png",
-            "backgroundColor": "#00644C"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 06.png",
+                "backgroundColor": "#00644C"
+            }
+        ]
+    },
+    {
         "id": "12",
         "mcaDisplayId": "1551",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 06.png",
-            "backgroundColor": "#00644C"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 06.png",
+                "backgroundColor": "#00644C"
+            }
+        ]
+    },
+    {
         "id": "13",
         "mcaDisplayId": "1552",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 07.png",
-            "backgroundColor": "#63AD46"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 07.png",
+                "backgroundColor": "#63AD46"
+            }
+        ]
+    },
+    {
         "id": "14",
         "mcaDisplayId": "1552",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 07.png",
-            "backgroundColor": "#63AD46"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 07.png",
+                "backgroundColor": "#63AD46"
+            }
+        ]
+    },
+    {
         "id": "15",
         "mcaDisplayId": "1553",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 08.png",
-            "backgroundColor": "#EFF0F0"
-        }, {
-            "start_time": "2025-09-06T17:25:00Z",
-            "end_time": "2025-09-06T20:25:00Z",
-            "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-            "backgroundColor": "#00A5CE"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 08.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-09-27 19:48:00",
+                "end_time": "2025-09-27 19:49:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-09-28 10:05:00",
+                "end_time": "2025-09-28 13:05:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-09-28 10:05:00",
+                "end_time": "2025-09-28 13:05:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-05 10:25:00",
+                "end_time": "2025-10-05 13:25:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-19 10:05:00",
+                "end_time": "2025-10-19 13:05:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-23 14:15:00",
+                "end_time": "2025-10-23 17:15:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-02 10:05:00",
+                "end_time": "2025-11-02 13:05:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-09 14:20:00",
+                "end_time": "2025-11-09 17:20:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-16 10:05:00",
+                "end_time": "2025-11-16 13:05:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-23 14:20:00",
+                "end_time": "2025-11-23 17:20:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-30 10:25:00",
+                "end_time": "2025-11-30 13:25:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-12-08 14:15:00",
+                "end_time": "2025-12-08 17:15:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-12-14 10:25:00",
+                "end_time": "2025-12-14 13:25:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "16",
         "mcaDisplayId": "1553",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 08.png",
-            "backgroundColor": "#EFF0F0"
-        }, {
-            "start_time": "2025-09-06T17:25:00Z",
-            "end_time": "2025-09-06T20:25:00Z",
-            "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-            "backgroundColor": "#00A5CE"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 08.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-09-27 19:48:00",
+                "end_time": "2025-09-27 19:49:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-09-28 10:05:00",
+                "end_time": "2025-09-28 13:05:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-09-28 10:05:00",
+                "end_time": "2025-09-28 13:05:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-05 10:25:00",
+                "end_time": "2025-10-05 13:25:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-19 10:05:00",
+                "end_time": "2025-10-19 13:05:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-23 14:15:00",
+                "end_time": "2025-10-23 17:15:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-02 10:05:00",
+                "end_time": "2025-11-02 13:05:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-09 14:20:00",
+                "end_time": "2025-11-09 17:20:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-16 10:05:00",
+                "end_time": "2025-11-16 13:05:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-23 14:20:00",
+                "end_time": "2025-11-23 17:20:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-30 10:25:00",
+                "end_time": "2025-11-30 13:25:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-12-08 14:15:00",
+                "end_time": "2025-12-08 17:15:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-12-14 10:25:00",
+                "end_time": "2025-12-14 13:25:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "17",
         "mcaDisplayId": "1554",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 09.png",
-            "backgroundColor": "#008DCF"
-        }, {
-            "start_time": "2025-09-06T17:25:00Z",
-            "end_time": "2025-09-06T20:25:00Z",
-            "image": "Shuttle_Bus Bay 9_1920x1080.png",
-            "backgroundColor": "#00A5CE"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 09.png",
+                "backgroundColor": "#098ccb"
+            },
+            {
+                "start_time": "2025-09-27 19:48:00",
+                "end_time": "2025-09-27 19:49:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#098ccb"
+            },
+            {
+                "start_time": "2025-09-28 10:05:00",
+                "end_time": "2025-09-28 13:05:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-09-28 10:05:00",
+                "end_time": "2025-09-28 13:05:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-05 10:25:00",
+                "end_time": "2025-10-05 13:25:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-19 10:05:00",
+                "end_time": "2025-10-19 13:05:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-23 14:15:00",
+                "end_time": "2025-10-23 17:15:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-02 10:05:00",
+                "end_time": "2025-11-02 13:05:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-09 14:20:00",
+                "end_time": "2025-11-09 17:20:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-16 10:05:00",
+                "end_time": "2025-11-16 13:05:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-23 14:20:00",
+                "end_time": "2025-11-23 17:20:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-30 10:25:00",
+                "end_time": "2025-11-30 13:25:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-12-08 14:15:00",
+                "end_time": "2025-12-08 17:15:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-12-14 10:25:00",
+                "end_time": "2025-12-14 13:25:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "18",
         "mcaDisplayId": "1554",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 09.png",
-            "backgroundColor": "#008DCF"
-        }, {
-            "start_time": "2025-09-06T17:25:00Z",
-            "end_time": "2025-09-06T20:25:00Z",
-            "image": "Shuttle_Bus Bay 9_1920x1080.png",
-            "backgroundColor": "#00A5CE"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 09.png",
+                "backgroundColor": "#098ccb"
+            },
+            {
+                "start_time": "2025-09-27 19:52:00",
+                "end_time": "2025-09-27 19:53:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#098ccb"
+            },
+            {
+                "start_time": "2025-09-28 10:05:00",
+                "end_time": "2025-09-28 13:05:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-09-28 10:05:00",
+                "end_time": "2025-09-28 13:05:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-05 10:25:00",
+                "end_time": "2025-10-05 13:25:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-19 10:05:00",
+                "end_time": "2025-10-19 13:05:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-10-23 14:15:00",
+                "end_time": "2025-10-23 17:15:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-02 10:05:00",
+                "end_time": "2025-11-02 13:05:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-09 14:20:00",
+                "end_time": "2025-11-09 17:20:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-16 10:05:00",
+                "end_time": "2025-11-16 13:05:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-23 14:20:00",
+                "end_time": "2025-11-23 17:20:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-11-30 10:25:00",
+                "end_time": "2025-11-30 13:25:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-12-08 14:15:00",
+                "end_time": "2025-12-08 17:15:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+                "start_time": "2025-12-14 10:25:00",
+                "end_time": "2025-12-14 13:25:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "19",
         "mcaDisplayId": "1555",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 10.png",
-            "backgroundColor": "#40AF49"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 10.png",
+                "backgroundColor": "#40AF49"
+            }
+        ]
+    },
+    {
         "id": "20",
         "mcaDisplayId": "1555",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 10.png",
-            "backgroundColor": "#40AF49"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 10.png",
+                "backgroundColor": "#40AF49"
+            }
+        ]
+    },
+    {
         "id": "21",
         "mcaDisplayId": "1556",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 11.png",
-            "backgroundColor": "#FFFFFF"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 11.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "22",
         "mcaDisplayId": "1556",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 11.png",
-            "backgroundColor": "#FFFFFF"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 11.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "23",
         "mcaDisplayId": "1557",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 12.png",
-            "backgroundColor": "#FFFFFF"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 12.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "24",
         "mcaDisplayId": "1557",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 12.png",
-            "backgroundColor": "#FFFFFF"
-        }]
-    },    {
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 12.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "25",
         "mcaDisplayId": "1558",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 13.png",
-            "backgroundColor": "#FFFFFF"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 13.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "26",
         "mcaDisplayId": "1558",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 13.png",
-            "backgroundColor": "#FFFFFF"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 13.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "27",
         "mcaDisplayId": "1559",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 14(not used).png",
-            "backgroundColor": "#000000"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 14(not used).png",
+                "backgroundColor": "#000000"
+            }
+        ]
+    },
+    {
         "id": "28",
         "mcaDisplayId": "1559",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 14(not used).png",
-            "backgroundColor": "#000000"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 14(not used).png",
+                "backgroundColor": "#000000"
+            }
+        ]
+    },
+    {
         "id": "29",
         "mcaDisplayId": "1560",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 15.png",
-            "backgroundColor": "#FFFFFF"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 15.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "30",
         "mcaDisplayId": "1560",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 15.png",
-            "backgroundColor": "#FFFFFF"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 15.png",
+                "backgroundColor": "#FFFFFF"
+            }
+        ]
+    },
+    {
         "id": "31",
         "mcaDisplayId": "1585",
         "mcaScreen": "1",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 16.png",
-            "backgroundColor": "#58595B"
-        }]
-    },{
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 16.png",
+                "backgroundColor": "#58595B"
+            }
+        ]
+    },
+    {
         "id": "32",
         "mcaDisplayId": "1585",
         "mcaScreen": "2",
         "layout": "full",
-        "content": [{
-            "start_time": "2025-07-01T08:00:00Z",
-            "end_time": "2099-01-01T08:00:00Z",
-            "image": "AMC Bus Pylon Daktronics_Bay 16.png",
-            "backgroundColor": "#58595B"
-        }]
+        "content": [
+            {
+                "start_time": "2025-07-01 00:00:00",
+                "end_time": "2099-01-01 00:00:00",
+                "image": "AMC Bus Pylon Daktronics_Bay 16.png",
+                "backgroundColor": "#58595B"
+            }
+        ]
     }
 ]

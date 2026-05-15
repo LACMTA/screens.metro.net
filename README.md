@@ -17,17 +17,17 @@ Screen Types:
 
 ## Pages
 
-Each screen is currently generating pages at both these path formats:
-
-* /{ id }/
-* /mtc/{ mca.displayId }/{ mca.screen }/
+[Screen List](/screen-list/)
 
 # Data Files
 
 Data is separated by Screen types:
 
+* bus-bay-assignments.json
 * bus-bay-pylons.json
-* concourse-info.json
+* east-portal-tower.json
+* psa-list.json
+
 
 ## Data Format
 

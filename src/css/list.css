@@ -8,6 +8,10 @@ html, body {
     font-style: normal;
 }
 
+body {
+    overflow-y: scroll !important;
+}
+
 table {
     width: 800px;
     border-collapse: collapse;

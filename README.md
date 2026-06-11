@@ -53,7 +53,7 @@ Bus Bay Pylons - full screens
 
 ## Scheduled Content
 
-In the JSON files, the datetimes are represented in `MM-dd-yyyy HH:mm:ss` format for the `America/Los_Angeles` zone.  The Luxon.js library is being used to handle datetimes.
+In the JSON files, the datetimes are represented in `yyyy-MM-dd HH:mm:ss` format for the `America/Los_Angeles` zone.  The Luxon.js library is being used to handle datetimes.
 
 ### Bus Bay Pylons
 

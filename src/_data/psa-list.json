@@ -13,5 +13,14 @@
             "url": "25-1878_LIFE_VideoWall_jp_v2.jpg"
         }],
         "frameDurationSeconds": 15
+    },
+    {
+        "id": "400",
+        "images": [{
+            "url": "LAX-MTC_Evergreen-Multi-Service-Screen_1080x1920px.png"
+        },{
+            "url": "LAX-MTC_WC-Multi-Service-Screen_1080x1920px.png"
+        }],
+        "frameDurationSeconds": 15
     }
 ]

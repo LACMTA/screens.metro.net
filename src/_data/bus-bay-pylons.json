@@ -102,82 +102,10 @@
                 "backgroundColor": "#FFFFFF"
             },
             {
-                "start_time": "2025-09-27 19:48:00",
-                "end_time": "2025-09-27 19:49:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-09-28 10:05:00",
-                "end_time": "2025-09-28 13:05:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-09-28 10:05:00",
-                "end_time": "2025-09-28 13:05:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-10-05 10:25:00",
-                "end_time": "2025-10-05 13:25:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-10-19 10:05:00",
-                "end_time": "2025-10-19 13:05:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-10-23 14:15:00",
-                "end_time": "2025-10-23 17:15:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-11-02 10:05:00",
-                "end_time": "2025-11-02 13:05:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-11-09 14:20:00",
-                "end_time": "2025-11-09 17:20:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-11-16 10:05:00",
-                "end_time": "2025-11-16 13:05:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-11-23 14:20:00",
-                "end_time": "2025-11-23 17:20:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-11-30 10:25:00",
-                "end_time": "2025-11-30 13:25:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-12-08 14:15:00",
-                "end_time": "2025-12-08 17:15:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-12-14 10:25:00",
-                "end_time": "2025-12-14 13:25:00",
-                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
-                "backgroundColor": "#FFFFFF"
+                "start_time": "2026-06-12 13:30:00",
+                "end_time": "2026-06-12 23:00:00",
+                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
+                "backgroundColor": "#584aa9"
             }
         ]
     },
@@ -193,82 +121,10 @@
                 "backgroundColor": "#098ccb"
             },
             {
-                "start_time": "2025-09-27 19:48:00",
-                "end_time": "2025-09-27 19:49:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#098ccb"
-            },
-            {
-                "start_time": "2025-09-28 10:05:00",
-                "end_time": "2025-09-28 13:05:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-09-28 10:05:00",
-                "end_time": "2025-09-28 13:05:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-10-05 10:25:00",
-                "end_time": "2025-10-05 13:25:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-10-19 10:05:00",
-                "end_time": "2025-10-19 13:05:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-10-23 14:15:00",
-                "end_time": "2025-10-23 17:15:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-11-02 10:05:00",
-                "end_time": "2025-11-02 13:05:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-11-09 14:20:00",
-                "end_time": "2025-11-09 17:20:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-11-16 10:05:00",
-                "end_time": "2025-11-16 13:05:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-11-23 14:20:00",
-                "end_time": "2025-11-23 17:20:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-11-30 10:25:00",
-                "end_time": "2025-11-30 13:25:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-12-08 14:15:00",
-                "end_time": "2025-12-08 17:15:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
-            },
-            {
-                "start_time": "2025-12-14 10:25:00",
-                "end_time": "2025-12-14 13:25:00",
-                "image": "Shuttle_Bus Bay 9_1920x1080.png",
-                "backgroundColor": "#FFFFFF"
+               "start_time": "2026-06-11 13:00:00",
+                "end_time": "2026-06-11 13:05:00",
+                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
+                "backgroundColor": "#584aa9"
             }
         ]
     },
@@ -294,6 +150,12 @@
                 "start_time": "2025-07-01 00:00:00",
                 "end_time": "2099-01-01 00:00:00",
                 "image": "AMC Bus Pylon Daktronics_Bay 11.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            {
+               "start_time": "2026-06-11 13:00:00",
+                "end_time": "2026-06-11 13:05:00",
+                "image": "Bay-11-Metro-120-102-BCT-09-1080-1920px.png",
                 "backgroundColor": "#FFFFFF"
             }
         ]

@@ -77,13 +77,14 @@
 }
 
 .route-number {
-    height: 109px;
+    height: 140px;
     width: 242px;
-    font-size: 109px;
+    font-size: 140px;
+    letter-spacing: -5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(-5px);
+    transform: translateY(-5px);    
 }
 
 .agency-logo {

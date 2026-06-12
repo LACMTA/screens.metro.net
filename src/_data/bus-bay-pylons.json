@@ -121,8 +121,8 @@
                 "backgroundColor": "#098ccb"
             },
             {
-               "start_time": "2026-06-11 13:00:00",
-                "end_time": "2026-06-11 13:05:00",
+                "start_time": "2026-06-12 13:30:00",
+                "end_time": "2026-06-12 23:00:00",
                 "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
                 "backgroundColor": "#584aa9"
             }
@@ -153,8 +153,8 @@
                 "backgroundColor": "#FFFFFF"
             },
             {
-               "start_time": "2026-06-11 13:00:00",
-                "end_time": "2026-06-11 13:05:00",
+               "start_time": "2026-06-12 13:30:00",
+                "end_time": "2026-06-12 23:00:00",
                 "image": "Bay-11-Metro-120-102-BCT-09-1080-1920px.png",
                 "backgroundColor": "#FFFFFF"
             }

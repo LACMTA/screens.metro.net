@@ -102,40 +102,10 @@
                 "backgroundColor": "#FFFFFF"
             },
             {
-                "start_time": "2026-06-18 08:30:00",
-                "end_time": "2026-06-18 15:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
-            },
-            {
-                "start_time": "2026-06-21 08:30:00",
-                "end_time": "2026-06-21 15:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
-            },
-            {
-                "start_time": "2026-06-25 15:30:00",
-                "end_time": "2026-06-26 00:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
-            },
-            {
-                "start_time": "2026-06-28 08:30:00",
-                "end_time": "2026-06-28 15:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
-            },
-            {
-                "start_time": "2026-07-02 08:30:00",
-                "end_time": "2026-07-02 15:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
-            },
-            {
-                "start_time": "2026-07-10 08:30:00",
-                "end_time": "2026-07-10 15:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
+                "start_time": "2026-09-13 10:25:00",
+                "end_time": "2026-09-13 14:25:00",
+                "image": "Shuttle_Bus Bay 8_1920x1080_SOFI.png",
+                "backgroundColor": "#FFFFFF"
             }
         ]
     },
@@ -151,40 +121,10 @@
                 "backgroundColor": "#098ccb"
             },
             {
-                "start_time": "2026-06-18 08:30:00",
-                "end_time": "2026-06-18 15:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
-            },
-            {
-                "start_time": "2026-06-21 08:30:00",
-                "end_time": "2026-06-21 15:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
-            },
-            {
-                "start_time": "2026-06-25 15:30:00",
-                "end_time": "2026-06-26 00:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
-            },
-            {
-                "start_time": "2026-06-28 08:30:00",
-                "end_time": "2026-06-28 15:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
-            },
-            {
-                "start_time": "2026-07-02 08:30:00",
-                "end_time": "2026-07-02 15:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
-            },
-            {
-                "start_time": "2026-07-10 08:30:00",
-                "end_time": "2026-07-10 15:00:00",
-                "image": "Bay-8-9-World-Cup-Service-1080-1920px.png",
-                "backgroundColor": "#584aa9"
+                "start_time": "2026-09-13 10:25:00",
+                "end_time": "2026-09-13 14:25:00",
+                "image": "Shuttle_Bus Bay 9_1920x1080.png",
+                "backgroundColor": "#098ccb"
             }
         ]
     },

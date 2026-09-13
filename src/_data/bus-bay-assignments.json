@@ -112,49 +112,27 @@
     },
     "special_layouts":[
         {
-            "name": "World Cup 6/12",
+            "name": "2026 NFL Season",
             "schedule": [
                 {
-                    "start_time": "2026-06-12 13:30:00",
-                    "end_time": "2026-06-12 23:00:00"
+                    "start_time": "2026-09-13 10:25:00",
+                    "end_time": "2026-09-13 14:25:00"
                 },{
-                    "start_time": "2026-06-15 14:30:00",
-                    "end_time": "2026-06-15 23:00:00"
+                    "start_time": "2026-09-20 10:05:00",
+                    "end_time": "2026-09-20 14:05:00"
                 },{
-                    "start_time": "2026-06-18 08:30:00",
-                    "end_time": "2026-06-18 15:00:00"
-                },{
-                    "start_time": "2026-06-21 08:30:00",
-                    "end_time": "2026-06-21 15:00:00"
-                },{
-                    "start_time": "2026-06-25 15:30:00",
-                    "end_time": "2026-06-26 00:00:00"
-                },{
-                    "start_time": "2026-06-28 08:30:00",
-                    "end_time": "2026-06-28 15:00:00"
-                },{
-                    "start_time": "2026-07-02 08:30:00",
-                    "end_time": "2026-07-02 15:00:00"
-                },{
-                    "start_time": "2026-07-10 08:30:00",
-                    "end_time": "2026-07-10 15:00:00"
+                    "start_time": "2026-09-21 14:15:00",
+                    "end_time": "2026-09-21 18:15:00"
                 }
             ],
             "rows": [
                 {
                     "routeText": "",
-                    "description": "World Cup Service",
-                    "image": "LAX-MTC_Bus-Assignment-WC-Brand-Rectangle_484x176px.png",
+                    "description": "SoFi Stadium Express",
+                    "image": "Shuttle_Bus Bay Directory_Logo Badge_484x176.png",
                     "backgroundColor": "#f48120",
                     "textColor": "#ffffff",
                     "bay": "8"
-                },{
-                    "routeText": "",
-                    "description": "World Cup Service",
-                    "image": "LAX-MTC_Bus-Assignment-WC-Brand-Rectangle_484x176px.png",
-                    "backgroundColor": "#f48120",
-                    "textColor": "#ffffff",
-                    "bay": "9"
                 },{
                     "backgroundColor": "#00a5ce",
                     "textColor": "#ffffff",
@@ -224,14 +202,14 @@
                     "image": "metro-logo.png",
                     "backgroundColor": "#f48120",
                     "textColor": "#000000",
-                    "bay": "11"
+                    "bay": "9"
                 },{
                     "routeText": "109",
                     "description": "Redondo Beach Riviera Village",
                     "image": "beach-cities-transit-logo.png",
                     "backgroundColor": "#008dcf",
                     "textColor": "#000000",
-                    "bay": "11"
+                    "bay": "9"
                 },{
                     "routeText": "111",
                     "description": "Norwalk Station via Florence Av",
